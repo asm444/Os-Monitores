@@ -1,1 +1,67 @@
-teste
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\author{Arthur de Souza Molina e Gabriel Capelini Magalhaes}
+\begin{document}
+	\section{Terceiro Exercício}
+	A distância até a estrela mais distante da nossa galáxia é da ordem de $10^{5}$ anos-luz. Explique por que é possível, em princípio, para um ser humano viajar para tal estrela durante seu tempo de vida (digamos 80 anos) e faça uma estimativa da velocidade necessária para isso.
+	\paragraph{Resposta:}
+	Antes de começar qualquer cálculo, perceba que as medidas de intervalo de tempo e de distância são de um observador em repouso no referencial da Terra. Este problema é análogo ao paradoxo dos gêmeos.
+	
+	Podemos definir o observador na Terra como o referencial S ( o observador na estrela está em repouso em relação ao referencial S) e o observador (o viajante) da nave em repouso em seu respectivo referencial S' que se distância da Terra com a velocidade iremos estimar, isto é, a velocidade relativa entre os referenciais S e S', lembrando que o sentido da velocidade do foguete se altera na mudança de referencial, logo,
+	
+	\begin{equation}\label{v_foguete}
+		  v' = \dfrac{\Delta x'}{\Delta t'}
+	\end{equation}
+	
+	Sabendo que o observador na Terra realiza medidas de comprimento contraídas e intervalos de tempo dilatadas
+	\begin{equation}
+		\Delta x \approx 10^5 \text{  anos-luz    e  } \Delta t \approx \text{80 anos},
+	\end{equation}
+	podemos usar as TL para traduzir as medidas para o sistema de coordenadas para S' com
+	\begin{equation}\label{TL_repouso}
+		\Delta x' = \dfrac{\Delta x}{\gamma}\text{  e  } \Delta t' = \gamma\Delta t.
+	\end{equation}
+
+	Ao substituirmos temos
+	\begin{eqnarray}
+		&& v' = \dfrac{\dfrac{\Delta x}{\gamma}}{\gamma\Delta t} \nonumber \\
+		&& v' = \dfrac{\Delta x}{\gamma^2\Delta t}\nonumber
+	\end{eqnarray}
+	para facilitar as contas, podemos realizar a seguinte operação
+	
+	\begin{equation}\nonumber
+		\dfrac{\Delta x}{\Delta t } = \dfrac{10^5 \text{  anos-luz}}{80\text{ anos}} = \dfrac{10^5c}{80} = 1,25\cdot10^3c
+	\end{equation}
+	irei definir $ \alpha\equiv 1,25\cdot10^3 $, apenas para não carregar um termo numérico imenso e dar o trabalho de manipula-lo. Retornando as contas temos
+	
+	\begin{eqnarray}
+	    && v' = \dfrac{\alpha c}{\gamma^2}\nonumber \\
+		&& v' = \alpha c \left( 1 - \dfrac{v'^2}{c^2}\right) \nonumber \\
+		&& v'  =  \alpha c - \dfrac{ \alpha v'^2}{c} \nonumber \\		
+		&& \dfrac{ c v'}{\alpha} = c^2 - v'^2 \nonumber \\
+		&& v'^2 - \dfrac{ c v'}{\alpha} - c^2 = 0, \nonumber
+	\end{eqnarray}
+	usando Baskara, temos
+	\begin{eqnarray}
+		&& v' = -\dfrac{\frac{c}{\alpha} \pm \sqrt{\left(\frac{c}{\alpha}\right)^2 +4c^2}}{2} \nonumber \\
+		&& v' = \dfrac{-\frac{c}{\alpha} \pm c\sqrt{\frac{1}{\alpha^2} +4}}{2} \nonumber 
+	\end{eqnarray}
+	como isso é uma estimativa, podemos considerar que $ \alpha^{-2} \approx 0 $, logo
+	\begin{eqnarray}
+		&& v' = \dfrac{-\frac{c}{\alpha} \pm c\sqrt{4}}{2} \nonumber \\
+		&& v' = c\dfrac{-\frac{1}{\alpha} \pm 2}{2} \nonumber\\
+		&& v' = c\left(-\frac{1}{2\alpha} \pm 1\right) \nonumber 
+	\end{eqnarray}
+	O primeiro resultado, o negativo, temos
+	$ v' = c\left(-\frac{1}{2\alpha} - 1\right) \Longrightarrow |v'| > |c|$, ultrapassando a velocidade da luz, na direção contrária da viagem e isso é incorreto.
+	
+	Já o segundo resultado, o positivo, temos
+	$ v' = c\left(-\frac{1}{2\alpha} + 1\right) \approx 0,9996 c$ que é o resultado correto.
+
+\end{document}
