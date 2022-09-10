@@ -433,5 +433,119 @@ $$B = \left(\begin{matrix}
 e as condições do item (a) podem ser escritas por $ (M^T)_{\mu\alpha} (\eta)_{\alpha\beta} (M)_{\beta\nu }= \delta_{\mu\nu} $, pois obtemos as mesmas relações algébricas entre as componentes da matriz $ M $.
 
 \section{Décimo Primeiro Exercício}
+Mostre que duas transformações de Lorentz sucessivas na mesma direção, a primeira com velocidade $ v_1 $ e a segunda com velocidade $ v_2 $, equivalem
+a uma única transformação de Lorentz, e calcule a velocidade $ v $ desta transformação. Discuta como esta velocidade resultante se relaciona com a fórmula de Einstein para a soma de velocidades. 
+
+\paragraph{Resposta: }
+A matriz de Tranformação de Lorentz (Boots na direção x) é dada por
+
+$$ \Lambda = \left(\begin{matrix}
+	\gamma&&-\gamma\beta&&0&&0\\
+	-\gamma\beta&&\gamma&&0&&0\\
+	0&&0&&1&&0\\
+	0&&0&&0&&1
+\end{matrix}\right)$$
+ onde $\gamma = \left(1 -\frac{v^2}{c^2}\right)$ e $\beta = \frac{v}{c}$.
  
+ Podemos escrever a tranformação de Lorentz na forma matricial, como
+ 
+ \begin{equation}\nonumber
+ 	\left(\begin{matrix}
+ 		x_0'\\
+ 		x_1'\\
+ 		x_2'\\
+ 		x_3'
+ 	\end{matrix}\right) = \left(\begin{matrix}
+ 	\gamma&&-\gamma\beta&&0&&0\\
+ 	-\gamma\beta&&\gamma&&0&&0\\
+ 	0&&0&&1&&0\\
+ 	0&&0&&0&&1
+ \end{matrix}\right)\left(\begin{matrix}
+ x_0\\
+ x_1\\
+ x_2\\
+ x_3
+\end{matrix}\right)
+ \end{equation}
+para a uma transformação (na direção x) com velocidade $ v_1 $ dado por $ \gamma(v_1) \equiv \gamma_1 $ e $ \beta(v_1) \equiv \beta_1 $, logo
+
+ \begin{equation}\nonumber
+	\left(\begin{matrix}
+		x_0'\\
+		x_1'\\
+		x_2'\\
+		x_3'
+	\end{matrix}\right) = \left(\begin{matrix}
+		\gamma_1&&-\gamma_1\beta_1&&0&&0\\
+		-\gamma_1\beta_1&&\gamma_1&&0&&0\\
+		0&&0&&1&&0\\
+		0&&0&&0&&1
+	\end{matrix}\right)\left(\begin{matrix}
+		x_0\\
+		x_1\\
+		x_2\\
+		x_3
+	\end{matrix}\right)
+\end{equation}
+ em seguida se fizermos a segunda transformação com velocidade $ v_2 $ na mesma direção, isto é, $\gamma(v_2) \equiv \gamma_2$ e $\beta(v_2) = \beta_2$
+ 
+  \begin{equation}\nonumber
+ 	\left(\begin{matrix}
+ 		x_0''\\
+ 		x_1''\\
+ 		x_2''\\
+ 		x_3''
+ 	\end{matrix}\right) = \left(\begin{matrix}
+ 		\gamma_2&&-\gamma_2\beta_2&&0&&0\\
+ 		-\gamma_2\beta_2&&\gamma_2&&0&&0\\
+ 		0&&0&&1&&0\\
+ 		0&&0&&0&&1
+ 	\end{matrix}\right)\left(\begin{matrix}
+ 	x_0'\\
+ 	x_1'\\
+ 	x_2'\\
+ 	x_3'
+ \end{matrix}\right)
+ \end{equation}
+ 
+   \begin{equation}\nonumber
+ 	\left(\begin{matrix}
+ 		x_0''\\
+ 		x_1''\\
+ 		x_2''\\
+ 		x_3''
+ 	\end{matrix}\right) = \left(\begin{matrix}
+ 		\gamma_2&&-\gamma_2\beta_2&&0&&0\\
+ 		-\gamma_2\beta_2&&\gamma_2&&0&&0\\
+ 		0&&0&&1&&0\\
+ 		0&&0&&0&&1
+ 	\end{matrix}\right)\left(\begin{matrix}
+ 	\gamma_1&&-\gamma_1\beta_1&&0&&0\\
+ 	-\gamma_1\beta_1&&\gamma_1&&0&&0\\
+ 	0&&0&&1&&0\\
+ 	0&&0&&0&&1
+ \end{matrix}\right)\left(\begin{matrix}
+ x_0\\
+ x_1\\
+ x_2\\
+ x_3
+\end{matrix}\right)
+ \end{equation}
+ 
+ chamando essa dupla transformação de Lorentz de $\Lambda'$, temos
+ 
+ \begin{equation}\nonumber
+ 	\Lambda' = \left(\begin{matrix}
+ 		\gamma_2&&-\gamma_2\beta_2&&0&&0\\
+ 		-\gamma_2\beta_2&&\gamma_2&&0&&0\\
+ 		0&&0&&1&&0\\
+ 		0&&0&&0&&1
+ 	\end{matrix}\right)\left(\begin{matrix}
+ 		\gamma_1&&-\gamma_1\beta_1&&0&&0\\
+ 		-\gamma_1\beta_1&&\gamma_1&&0&&0\\
+ 		0&&0&&1&&0\\
+ 		0&&0&&0&&1
+ 	\end{matrix}\right)
+ \end{equation}
+
 \end{document}
