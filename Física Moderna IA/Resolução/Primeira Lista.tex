@@ -7,7 +7,17 @@
 \usepackage{graphicx}
 \usepackage[portuguese]{babel}
 \author{Arthur de Souza Molina e Gabriel Capelini Magalhaes}
+\title{Resolução da Lista e dos exercícios das notas.}
 \begin{document}
+	\maketitle
+	\section{Primeiro Exercício}
+	Qual a diferença entre os referenciais inerciais da Mecânica Clássica e os da Teoria da Relatividade Restrita?
+	
+	\paragraph{Resposta:}
+	Na Mecânica Clássica, utilizamos as Transformações de Galileu como um dicionário para relacionar medidas entre referenciais inerciais. Na Teoria da Relatividade Restrita, utilizamos as Transformações de Lorentz para o mesmo propósito, uma vez que as TL satisfazem os postulados da TRR.
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
 	\section{Terceiro Exercício}
 	A distância até a estrela mais distante da nossa galáxia é da ordem de $10^{5}$ anos-luz. Explique por que é possível, em princípio, para um ser humano viajar para tal estrela durante seu tempo de vida (digamos 80 anos) e faça uma estimativa da velocidade necessária para isso.
 	\paragraph{Resposta:}
@@ -64,4 +74,85 @@
 	Já o segundo resultado, o positivo, temos
 	$ v' = c\left(-\frac{1}{2\alpha} + 1\right) \approx 0,9996 c$ que é o resultado correto.
 
+	%%%%%%%%%%%%%%%%%%%%%%
+
+	\section{Quinto Exercício}
+	Uma barra de comprimento próprio $ L_0 $ (i.e., o comprimento medido no referencial $ S_0 $ em que ela está em repouso) faz um ângulo $ \theta_0 $ com o eixo
+	horizontal de seu referencial. Para um observador em um referencial S que se desloca com relação à $ S_0 $ na direção horizontal com velocidade v:
+	\begin{enumerate}
+		\item Qual o valor do ângulo $ \theta $ que a barra faz com o eixo horizontal?
+		
+		\paragraph{Resposta:}
+		Como $ S_0 $ se desloca com velocidade v na horizontal, isto é, no eixo x, portanto a componente vertical da barra ficará ilesa, pois a contração espacial ocorre apenas da direção do movimento.
+		
+		\begin{eqnarray}
+			&& \theta_0 = \arctan\left(\frac{\Delta y_0}{\Delta x_0}\right) = \arctan\left(\frac{L_y}{L_x}\right)\nonumber \\
+			&& L_0 = \sqrt{L_y^2+L_x^2} \nonumber\\
+			&& \theta = \arctan\left(\frac{\Delta y}{\Delta x}\right) \nonumber \\
+		\end{eqnarray}
+		 Reescrevendo $ \frac{L_y}{L_x} \equiv \alpha$ em termos de $ \theta_0 $, temos
+		 $$\theta_0 = \arctan\left(\frac{\Delta y_0}{\Delta x_0}\right) = \arctan\left(\frac{L_y}{L_x}\right) =  \arctan (\alpha)$$
+		 
+		 $$\therefore \alpha = \tan (\theta_0)$$
+		 
+		 Sabendo que $ \Delta y = \Delta y_0 = L_y $ e $\Delta x = \dfrac{\Delta x_0}{\gamma} =\dfrac{L_x}{\gamma} $, temos
+		 
+		 $$ \theta = \arctan\left(\frac{\Delta y}{\Delta x}\right) = \arctan\left(\frac{\Delta y_0}{ \dfrac{\Delta x_0}{\gamma}}\right) =\arctan\left(\frac{\Delta y_0}{ \dfrac{\Delta x_0}{\gamma}}\right) = \arctan(\gamma\alpha)$$
+		 
+		 $$\theta = \arctan(\gamma\alpha) = \arctan(\gamma\tan (\theta_0))$$
+		 
+		$$ \therefore \theta  = \arctan(\gamma\tan (\theta_0))$$
+		
+		\item Qual o comprimento L da barra em S?
+		 \paragraph{Resposta:}
+		 O comprimento da barra em $ S_0 $ é dado por
+		 $$ L_0 = \sqrt{L_y^2+L_x^2}$$
+		 e para o comprimento da barra em $ S $ é dado por
+		 $$ L= \sqrt{L_y'^2+L_x'^2}$$
+		 
+		 $$ L= \sqrt{L_y^2+\left(\dfrac{L_x}{\gamma}\right)^2}$$
+		 
+		 $$ L= \sqrt{(L_x)^2\left(\left(\dfrac{L_y}{L_x}\right)^2+\left(\dfrac{1}{\gamma}\right)^2\right)} = L_x \sqrt{(\alpha)^2+\left(\dfrac{1}{\gamma}\right)^2} = L_x \sqrt{\tan^2 (\theta_0)+ 1 - 1 + \left(\dfrac{1}{\gamma}\right)^2} $$
+		 
+		 $$ L= L_x \sqrt{\sec^2 \theta_0 - 1 + \left(1 - \frac{v^2}{c^2}\right)} = L_x \sqrt{\sec^2 \theta_0 - \frac{v^2}{c^2}}$$
+		 
+		 podemos escrever $ L_x = L_0 \cos\theta_0$, ao substituir
+		 
+		 $$L=  L_x  \sqrt{\sec^2 \theta_0 - \frac{v^2}{c^2}} = L_0 \cos\theta_0\sqrt{\sec^2 \theta_0 - \frac{v^2}{c^2}} = L_0 \sqrt{\cos^2\theta_0\sec^2 \theta_0 - \frac{v^2\cos^2\theta_0}{c^2}}  $$
+		 
+		 $$\therefore L= L_0 \sqrt{1 - \frac{v^2\cos^2\theta_0}{c^2}}$$
+	\end{enumerate}
+	
+	%%%%%%%%%%%%%%
+	
+	\section{Sétimo Exercício}
+	Num certo referencial S um observador registra a seguinte sequência de eventos: num certo instante uma bomba explodiu numa certa posição e, 3 segundo depois, uma segunda bomba explodiu a uma distância de 1 metro
+	desta primeira bomba. É possível encontrar um referencial inercial $ S_0 $,que respeite todos os postulados da relatividade, onde estas duas bombas explodiram no mesmo instante? Se sim, qual a velocidade deste referencial
+	em relação a S. Se não, justifique sua resposta.
+	
+	\paragraph{Resposta:}
+	Temos as medidas realizadas no referencial S
+	
+	 $$\Delta x = 1 m \,\,\,\, \Delta t = 3s $$
+	 
+	 precisamos encontrar um referencial S' em que um observador registra as duas explosões ocorrendo simultaneamente ($ \Delta t' = 0 $), ao usar uma das transformações de Lorentz podemos encontrar a velocidade relativa entre os referenciais S e S'.
+	 
+	 $$ \Delta t' = \gamma \left( \Delta t - v \dfrac{\Delta x}{c^2}\right)$$
+
+	 $$ 0 = \gamma \left( 3 - v \dfrac{1}{c^2}\right) $$
+	 
+	 $$ 0 =  3 - v \dfrac{1}{c^2} $$
+	 
+	 $$ v \dfrac{1}{c^2} = 3$$
+	 
+	 $$ v = 3c^2$$
+	O referencial S' precisaria estar a uma velocidade relativa ao referencial S de $ 3c^2 $, portanto não é encontrar um referencial que consiga registrar os dois eventos ocorrendo simultaneamente.
+	
+	Outra maneira de resolver esse problema é verificar qual tipo de distância que temos entre os eventos
+	
+	$$( (\Delta s)^2 = \Delta x)^2 - c^2 (\Delta t)^2 = 1^2 -9c^2 < 0 $$
+	portanto, a distância entre os evento é do tipo-tempo, ou seja, há uma relação de causalidade entre os eventos, logo é impossível encontrar um referencial que consiga ver os dois eventos ocorrerem simultaneamente.
+	
+
+	
 \end{document}

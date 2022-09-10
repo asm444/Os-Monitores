@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  8 SEP 2022 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  9 SEP 2022 23:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -171,20 +171,20 @@ File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
 ) (Primeira Lista.aux)
 \openout1 = `"Primeira Lista.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -260,31 +260,47 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(Primeira Lista.aux) ) 
+[3]
+Overfull \hbox (63.8159pt too wide) detected at line 115
+\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = [] = \OML/cmm/m/it/10 L[][] \OT1/cmr/m/n/1
+0 = \OML/cmm/m/it/10 L[][]
+ []
+
+
+Overfull \hbox (35.35223pt too wide) detected at line 121
+\OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 L[][] \OT1/cmr/m/n/10 = \
+OML/cmm/m/it/10 L[] [] ^^R[][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 L[][]
+ []
+
+[4] [5] (Primeira Lista.aux) ) 
 Here is how much of TeX's memory you used:
- 4427 strings out of 477992
- 72339 string characters out of 2827466
- 383723 words of memory out of 3000000
- 23146 multiletter control sequences out of 15000+600000
- 475574 words of font info for 42 fonts, out of 8000000 for 9000
+ 4458 strings out of 477992
+ 72665 string characters out of 2827466
+ 387758 words of memory out of 3000000
+ 23166 multiletter control sequences out of 15000+600000
+ 481751 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,10n,67p,471b,131s stack positions out of 10000i,1000n,20000p,200000b,80000s
- <C:\Users\arthu\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecbx1000.pk> <C:\Users\arthu\AppData\Local\MiKTeX\fonts/pk/ljfo
-ur/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\arthu\AppData\Local\MiKTeX\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/arthu/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/arthu/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/arthu/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/art
-hu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pf
-b><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy7.pfb>
-Output written on "Primeira Lista.pdf" (2 pages, 106080 bytes).
+ 60i,10n,67p,471b,220s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\arthu\AppData\Local\MiKTeX\fonts/pk/lj
+four/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\arthu\AppData\Local\MiKTeX\fonts
+/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\arthu\AppData\Local\MiKTeX
+\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\arthu\AppData\Local\
+MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\arthu\AppData\
+Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/arthu/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/
+arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i5.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr5.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/arthu/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/arthu/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/arthu/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on "Primeira Lista.pdf" (5 pages, 165566 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 228 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
