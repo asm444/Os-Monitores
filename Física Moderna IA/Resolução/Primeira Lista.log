@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  10 SEP 2022 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  10 SEP 2022 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,11 +317,26 @@ Overfull \hbox (13.02892pt too wide) detected at line 533
 [][] \OT1/cmr/m/n/10 = [] [] []
  []
 
-[11] (Primeira Lista.aux) ) 
+
+Overfull \hbox (100.98317pt too wide) in alignment at lines 564--566
+ [][][] []
+ []
+
+[11]
+Overfull \hbox (6.06355pt too wide) detected at line 576
+\OML/cmm/m/it/10 ^^M[]^^M[]\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 ^^L[]^^L[]\OT1
+/cmr/m/n/10 ) = (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L[]
+^^L[]\OT1/cmr/m/n/10 )[])[](1 + \OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/n/10 ) = 
+(1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/
+n/10 ))[](1 + (\OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/n/10 ))[](1 + \OML/cmm/m/i
+t/10 ^^L[]^^L[]\OT1/cmr/m/n/10 )
+ []
+
+[12] (Primeira Lista.aux) ) 
 Here is how much of TeX's memory you used:
  4465 strings out of 477992
  72731 string characters out of 2827466
- 405760 words of memory out of 3000000
+ 413760 words of memory out of 3000000
  23170 multiletter control sequences out of 15000+600000
  482678 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -344,9 +359,9 @@ eX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/arthu/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/arthu/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/arthu/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "Primeira Lista.pdf" (11 pages, 197642 bytes).
+Output written on "Primeira Lista.pdf" (12 pages, 199865 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
+ 266 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

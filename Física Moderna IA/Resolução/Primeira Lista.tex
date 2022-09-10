@@ -445,7 +445,7 @@ $$ \Lambda = \left(\begin{matrix}
 	0&&0&&1&&0\\
 	0&&0&&0&&1
 \end{matrix}\right)$$
- onde $\gamma = \left(1 -\frac{v^2}{c^2}\right)$ e $\beta = \frac{v}{c}$.
+ onde $\gamma = \left(1 -\frac{v^2}{c^2}\right)^{-1/2}$ e $\beta = \frac{v}{c}$.
  
  Podemos escrever a tranformação de Lorentz na forma matricial, como
  
@@ -547,5 +547,39 @@ para a uma transformação (na direção x) com velocidade $ v_1 $ dado por $ \g
  		0&&0&&0&&1
  	\end{matrix}\right)
  \end{equation}
+calculando a multiplicação de matrizes acima, obtemos
 
+
+\begin{equation}\nonumber
+	\Lambda' = \left(\begin{matrix}
+		\gamma_2\gamma_1(1+\beta_1\beta_2)&&-\gamma_2\gamma_1(\beta_1+\beta_2)&&0&&0\\
+		-\gamma_2\gamma_1(\beta_1+\beta_2)&&\gamma_2\gamma_1(1+\beta_1\beta_2)&&0&&0\\
+		0&&0&&1&&0\\
+		0&&0&&0&&1
+	\end{matrix}\right)
+\end{equation}
+
+calculando explicitamente quem é $ \gamma_2\gamma_1(1+\beta_1\beta_2) $, temos
+
+\begin{eqnarray}
+	\gamma_2\gamma_1(1+\beta_1\beta_2) = \left(1 -\frac{v_1^2}{c^2}\right)^{-1/2}\left(1 -\frac{v_2^2}{c^2}\right)^{-1/2}(1+\beta_1\beta_2) = \left(1 -\beta_1^2\right)^{-1/2}\left(1 -\beta_2^2\right)^{-1/2}(1+\beta_1\beta_2) \nonumber 
+\end{eqnarray}
+
+$$\gamma_2\gamma_1(1+\beta_1\beta_2) =\left(1 -\beta_1^2\right)^{-1/2}\left(1 -\beta_2^2\right)^{-1/2}(1+\beta_1\beta_2)$$
+
+$$\gamma_2\gamma_1(1+\beta_1\beta_2) =\left(\left(1 -\beta_1^2\right)\left(1 -\beta_2^2\right)\right)^{-1/2}(1+\beta_1\beta_2)$$
+
+$$\gamma_2\gamma_1(1+\beta_1\beta_2) =\left(\left(1 -\beta_1\right)\left(1 +\beta_1\right)\left(1 -\beta_2\right)\left(1 -\beta_2\right)\right)^{-1/2}(1+\beta_1\beta_2)$$
+
+$$\gamma_2\gamma_1(1+\beta_1\beta_2) =\left((1 -(\beta_2\beta_1)^2)^2\right)^{-1/2}(1+\beta_1\beta_2)$$
+
+$$\gamma_2\gamma_1(1+\beta_1\beta_2) =(1 -(\beta_2\beta_1)^2)^{-1}(1+\beta_1\beta_2)= (1 -(\beta_2\beta_1))^{-1}(1 +(\beta_2\beta_1))^{-1}(1+\beta_1\beta_2)$$
+
+$$\gamma_2\gamma_1(1+\beta_1\beta_2) = (1 -(\beta_2\beta_1))^{-1}$$
+
+calculando $-\gamma_2\gamma_1(\beta_1+\beta_2)  $ explicitamente, temos
+
+$$-\gamma_2\gamma_1(\beta_1+\beta_2)=- (1 -(\beta_2\beta_1)^2)^{-1} (\beta_1+\beta_2)$$
+
+A partir daqui não tenho uma ideia clara de como resolver esse exercício.
 \end{document}
