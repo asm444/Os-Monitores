@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  10 SEP 2022 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  10 SEP 2022 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,15 +136,107 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
+) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2022-08-08 v3.1.6 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen150
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_compound_count_int=\count271
+
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count272
+)
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count273
+\l__siunitx_number_min_decimal_int=\count274
+\l__siunitx_number_min_integer_int=\count275
+\l__siunitx_number_round_precision_int=\count276
+\l__siunitx_number_group_first_int=\count277
+\l__siunitx_number_group_size_int=\count278
+\l__siunitx_number_group_minimum_int=\count279
+\l__siunitx_table_tmp_box=\box55
+\l__siunitx_table_tmp_dim=\dimen151
+\l__siunitx_table_column_width_dim=\dimen152
+\l__siunitx_table_integer_box=\box56
+\l__siunitx_table_decimal_box=\box57
+\l__siunitx_table_before_box=\box58
+\l__siunitx_table_after_box=\box59
+\l__siunitx_table_before_dim=\dimen153
+\l__siunitx_table_carry_dim=\dimen154
+\l__siunitx_unit_tmp_int=\count280
+\l__siunitx_unit_position_int=\count281
+\l__siunitx_unit_total_int=\count282
+ (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box60
+\extrarowheight=\dimen156
+\NC@list=\toks24
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box61
+))
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count283
+\calc@Bcount=\count284
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count285
+\calc@Cskip=\skip56
+)
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count286
+\l_MT_multwidth_dim=\dimen159
+\origjot=\skip57
+\l_MT_shortvdotswithinadjustabove_dim=\dimen160
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen161
+\l_MT_above_intertext_sep=\dimen162
+\l_MT_below_intertext_sep=\dimen163
+\l_MT_above_shortintertext_sep=\dimen164
+\l_MT_below_shortintertext_sep=\dimen165
+\xmathstrut@box=\box62
+\xmathstrut@dim=\dimen166
 ) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/07/20 3.78 The Babel package
-\babel@savecnt=\count271
-\U@D=\dimen150
+\babel@savecnt=\count287
+\U@D=\dimen167
 \l@unhyphenated=\language79
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count272
+\bbl@dirlevel=\count288
 
 *************************************
 * Local config file bblopts.cfg used
@@ -166,49 +258,46 @@ Package babel Info: Importing font and identification data for portuguese
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count273
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count289
+\l__pdf_internal_box=\box63
 ) (Primeira Lista.aux)
 \openout1 = `"Primeira Lista.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count274
-\scratchdimen=\dimen151
-\scratchbox=\box54
-\nofMPsegments=\count275
-\nofMParguments=\count276
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count277
-\MPscratchDim=\dimen152
-\MPnumerator=\count278
-\makeMPintoPDFobject=\count279
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count290
+\scratchdimen=\dimen168
+\scratchbox=\box64
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count293
+\MPscratchDim=\dimen169
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
@@ -217,24 +306,11 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-)
+
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
 ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
- (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 Package grfext Info: Graphics extension search list:
@@ -245,14 +321,23 @@ G,.JBIG2,.JB2,.eps]
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+)) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
+ltx))
+Package translations Info: no dictionary file `translations-basic-dictionary-po
+rtuges.trsl' found. on input line 13.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
 
  (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -260,70 +345,70 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-[3]
-Overfull \hbox (63.8159pt too wide) detected at line 115
+[3] [4]
+Overfull \hbox (63.8159pt too wide) detected at line 171
 \OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = [] = \OML/cmm/m/it/10 L[][] \OT1/cmr/m/n/1
 0 = \OML/cmm/m/it/10 L[][]
  []
 
 
-Overfull \hbox (35.35223pt too wide) detected at line 121
+Overfull \hbox (35.35223pt too wide) detected at line 177
 \OML/cmm/m/it/10 L \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 L[][] \OT1/cmr/m/n/10 = \
 OML/cmm/m/it/10 L[] [] ^^R[][] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 L[][]
  []
 
-[4] [5]
-Overfull \hbox (13.47101pt too wide) detected at line 198
+[5] [6] [7]
+Overfull \hbox (13.47101pt too wide) detected at line 300
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 198
+Overfull \hbox (25.00003pt too wide) detected at line 300
 [][]
  []
 
 
-Overfull \hbox (3.2696pt too wide) detected at line 215
+Overfull \hbox (3.2696pt too wide) detected at line 317
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 215
+Overfull \hbox (25.00003pt too wide) detected at line 317
 [][]
  []
 
 
-Overfull \hbox (13.47101pt too wide) detected at line 234
+Overfull \hbox (13.47101pt too wide) detected at line 336
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 234
+Overfull \hbox (25.00003pt too wide) detected at line 336
 [][]
  []
 
-[6]
-Overfull \hbox (13.47101pt too wide) detected at line 252
+[8]
+Overfull \hbox (13.47101pt too wide) detected at line 354
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 252
+Overfull \hbox (25.00003pt too wide) detected at line 354
 [][]
  []
 
-[7] [8] [9] [10]
-Overfull \hbox (13.02892pt too wide) detected at line 533
+[9] [10] [11] [12]
+Overfull \hbox (13.02916pt too wide) detected at line 635
 [][] \OT1/cmr/m/n/10 = [] [] []
  []
 
 
-Overfull \hbox (100.98317pt too wide) in alignment at lines 564--566
+Overfull \hbox (100.98317pt too wide) in alignment at lines 666--668
  [][][] []
  []
 
-[11]
-Overfull \hbox (6.06355pt too wide) detected at line 576
+[13]
+Overfull \hbox (6.06355pt too wide) detected at line 678
 \OML/cmm/m/it/10 ^^M[]^^M[]\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 ^^L[]^^L[]\OT1
 /cmr/m/n/10 ) = (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L[]
 ^^L[]\OT1/cmr/m/n/10 )[])[](1 + \OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/n/10 ) = 
@@ -332,15 +417,15 @@ n/10 ))[](1 + (\OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/n/10 ))[](1 + \OML/cmm/m/i
 t/10 ^^L[]^^L[]\OT1/cmr/m/n/10 )
  []
 
-[12] (Primeira Lista.aux) ) 
+[14] (Primeira Lista.aux) ) 
 Here is how much of TeX's memory you used:
- 4465 strings out of 477992
- 72731 string characters out of 2827466
- 413760 words of memory out of 3000000
- 23170 multiletter control sequences out of 15000+600000
+ 8842 strings out of 477992
+ 188963 string characters out of 2827466
+ 512501 words of memory out of 3000000
+ 27512 multiletter control sequences out of 15000+600000
  482678 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,67p,471b,268s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 71i,18n,77p,710b,559s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\arthu\AppData\Local\MiKTeX\fonts/pk/ljfou
 r/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\arthu\AppData\Local\MiKTeX\fonts/pk
 /ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\arthu\AppData\Local\MiKTeX\fo
@@ -359,9 +444,9 @@ eX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/arthu/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/arthu/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/arthu/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "Primeira Lista.pdf" (12 pages, 199865 bytes).
+Output written on "Primeira Lista.pdf" (14 pages, 220495 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 300 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -5,6 +5,8 @@
 \usepackage{amssymb}
 \usepackage{makeidx}
 \usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{mathtools}
 \usepackage[portuguese]{babel}
 \author{Arthur de Souza Molina e Gabriel Capelini Magalhaes}
 \title{Resolução da Lista e dos exercícios das notas.}
@@ -17,6 +19,21 @@
 	Na Mecânica Clássica, utilizamos as Transformações de Galileu como um dicionário para relacionar medidas entre referenciais inerciais. Na Teoria da Relatividade Restrita, utilizamos as Transformações de Lorentz para o mesmo propósito, uma vez que as TL satisfazem os postulados da TRR.
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Segundo Exercício}
+	Até aqui nós escrevemos apenas transformações de Lorentz na direção \(x\).
+	Como seria uma transformação de Lorentz na direção \(y\)?	
+	\paragraph{Resposta:}
+	A transformação de Lorentz para a direção \(y\) tem a mesma forma algébrica que para a direção \(x\), porém lembrando que agora como o movimento se da apenas em \(y\), então as TL ficam como
+	
+	\begin{equation}
+		\begin{split}
+			& y' = \gamma(y-vt) \\
+			& x'=x, \;\; z'=z \\
+			& t' = \gamma\left(t-\frac{v}{c^2}y'\right)
+		\end{split}
+	\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	\section{Terceiro Exercício}
 	A distância até a estrela mais distante da nossa galáxia é da ordem de $10^{5}$ anos-luz. Explique por que é possível, em princípio, para um ser humano viajar para tal estrela durante seu tempo de vida (digamos 80 anos) e faça uma estimativa da velocidade necessária para isso.
@@ -75,6 +92,45 @@
 	$ v' = c\left(-\frac{1}{2\alpha} + 1\right) \approx 0,9996 c$ que é o resultado correto.
 
 	%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Quarto Exercício}	
+	Considere o problema do muon descrito nas notas de aula. Lembrando que o muon tem um tempo médio de decaimento de $2,2\times 10^{-6}$s. Com que
+	velocidade ele precisa ser produzido na atmosfera para percorrer 10 km e atingir o nível do mar?
+	
+	\paragraph{Resposta:}
+	Para esse problema, precisamos compreender que o tempo de  decaimento do múon é o tempo que ele vai percorrer \textbf{no seu referencial}. Vamos considerar então o referencial do múon como \(S\) e o referencial da Terra com \(S'\). Obviamente S' se move com relação ao múon, e em decorrência disso, a distância percorrida pelo múon será 
+	
+	\begin{equation*}
+		\Delta x = \frac{1}{\gamma}\Delta x'
+	\end{equation*}
+	
+	
+	De modo que a sua velocidade será 
+	
+	\begin{equation*}
+		v = \frac{\Delta x}{\Delta t} = \frac{1}{\gamma}\frac{\Delta x'}{\Delta t} = \sqrt{1-\frac{v^2}{c^2}}\frac{\Delta x'}{\Delta t} 
+	\end{equation*}
+	
+	definindo $\alpha = \dfrac{\Delta x'}{\Delta t}$ por praticidade e resolvendo para \(v\)
+	
+	\begin{equation*}
+		\begin{split}
+			&v^2 = \left(1 -\frac{v^2}{c^2}\right)\alpha^2 \Rightarrow v^2 + \frac{v^2}{c^2}\alpha^2 = \alpha^2 \Rightarrow v^2\left[1 + \left(\frac{\alpha}{c}\right)^2\right] = \alpha^2 \Rightarrow v = \frac{\alpha}{\sqrt{1+\frac{\alpha^2}{c^2}}}
+		\end{split}
+	\end{equation*}
+	
+	onde 
+	
+	\begin{equation}\nonumber
+		\alpha = \frac{\Delta x'}{\Delta t} = \frac{10^4 \si{m}}{2,2\times 10^{-6}\si{s}} = 4,54\times 10^9\si{m/s} \quad \text{e} \quad c\approx 3\times 10^8\si{m/s}
+	\end{equation}
+	
+	então
+	
+	\begin{equation}\nonumber
+		v = \frac{4,54\times 10^9\si{m/s}}{\sqrt{1+\left(\frac{4,54\times 10^9\si{m/s}}{3\times 10^8}\right)^2}} \approx 2,9934 \times 10^8 \si{m/s}
+	\end{equation}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 	\section{Quinto Exercício}
 	Uma barra de comprimento próprio $ L_0 $ (i.e., o comprimento medido no referencial $ S_0 $ em que ela está em repouso) faz um ângulo $ \theta_0 $ com o eixo
@@ -125,6 +181,50 @@
 	
 	%%%%%%%%%%%%%%
 	
+	\section{Sexto Exercício}
+	Se, para o observador em $S$, um feixe luminoso viaja por um intervalo de
+	tempo $\Delta t$, esse feixe percorre uma distância $\Delta x = c\Delta t$. Da mesma forma,
+	para um observador em $S'$ esse \textbf{mesmo feixe} viaja por um intervalo de
+	tempo $\Delta t'$, percorrendo uma distância $\Delta x'$. Se a velocidade da luz é a mesma para ambos os observadores temos 
+	
+	\begin{equation*}
+		\begin{rcases}
+			\Delta x = c\Delta t \Rightarrow \dfrac{\Delta x}{\Delta t} = c \\
+			\Delta x' = c\Delta t' \Rightarrow \dfrac{\Delta x'}{\Delta t'} = c
+		\end{rcases} 
+		\frac{\Delta x}{\Delta t} = \frac{\Delta x'}{\Delta t'}
+	\end{equation*}
+	
+	Se usarmos agora a dilatação temporal para um dos observadores (qualquer um), e.g.,$\Delta t =\gamma \Delta t'$ temos 
+	
+	\begin{equation}\label{dilatacao espacial}
+		\Delta t = \gamma \Delta t' \Rightarrow \frac{\Delta x}{\gamma \Delta t'}=\frac{\Delta x'}{\Delta t'} \Rightarrow \Delta x = \gamma \Delta x'
+	\end{equation}
+	
+	Vimos que, devido aos efeitos relativísticos, devemos esperar uma dilatação temporal $(\Delta t = \gamma \Delta t')$ e uma contração espacial $(\Delta x = \Delta x'/\gamma)$. Mas a expressão acima mostra que, se o tempo se dilata $\Delta t = \gamma \Delta t'$, o espaço também deve se dilatar $\Delta x = \gamma \Delta x'$. Responda, argumentando
+	com detalhes, as seguintes questões:
+	
+	\begin{itemize}
+		\item[(a)] Se a velocidade da luz é constante o espaço deve se contrair, ou se dilatar?
+		
+		\paragraph{Resposta:} Por conta da constância da velocidade da luz, o espaço deve se contrair, pois \textbf{uma medida de distância deve ser feita simultaneamente}, ou seja, os dois pontos devem ser medios no mesmo instante. Mas como sabemos, para um referencial que se move com relação ao que faz as medidas simultaneamente, certamente ele não conseguirá fazer medidas ao mesmo tempo. O resultado disso é uma medida contraída para este.
+		
+		
+		\item[(b)] Como você explica (i.e qual o significado Físico) da dilatação espacial em (\ref{dilatacao espacial})?
+		
+		\paragraph{Resposta:}  Perceba que quando usamos a dilatação do tempo ($\Delta t = \gamma \Delta t'$), precisamos entender para qual observador usamos. Nesse caso, como $\gamma \Delta t' > \Delta t'$, \textbf{estamos fazendo as descrições do observador no referencial $\mathbf{S'}$}, pois para ele, o tempo de $S$ passa mais devagar. Mas veja que em (\ref{dilatacao espacial}) estamos dizendo \textbf{como o observador em $\mathbf{S}$ vê os comprimentos de $\mathbf{S'}$}. Porém essa interpretação está errada já que estamos fazendo a dilatação para observador de $S'$. Dito isso, se dividirmos (\ref{dilatacao espacial}) por $\gamma$, obtemos 
+		
+		\begin{equation}
+			\Delta x' = \frac{1}{\gamma}\Delta x
+		\end{equation}
+		
+		O que agora entra de acordo com o que esperamos.
+		
+		\textbf{Obs:} Obviamente podemos usar a dilatação espacial para qualquer um dos observadores. Logo, se usarmos a inversa ($\Delta t' = \gamma \Delta t$), devemos verificar que $\Delta x = \frac{1}{\gamma}\Delta x'$.
+	\end{itemize}
+	
+	%%%%%%%%%%%%%%
+	
 	\section{Sétimo Exercício}
 	Num certo referencial S um observador registra a seguinte sequência de eventos: num certo instante uma bomba explodiu numa certa posição e, 3 segundo depois, uma segunda bomba explodiu a uma distância de 1 metro
 	desta primeira bomba. É possível encontrar um referencial inercial $ S_0 $,que respeite todos os postulados da relatividade, onde estas duas bombas explodiram no mesmo instante? Se sim, qual a velocidade deste referencial
@@ -154,6 +254,8 @@
 	portanto, a distância entre os evento é do tipo-tempo, ou seja, há uma relação de causalidade entre os eventos, logo é impossível encontrar um referencial que consiga ver os dois eventos ocorrerem simultaneamente.
 	
 	%%%%%%%%%%%%%%%%%%%%%%
+	
+	
 	
 	\section{Nono Exercício}
 	Num sistema onde nomeamos as coordenadas como
