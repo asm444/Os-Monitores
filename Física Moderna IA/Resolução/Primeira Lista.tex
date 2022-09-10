@@ -314,19 +314,19 @@ Mostre que as condições obtidas no item anterior podem ser escritas como
 \begin{equation}\nonumber
 	M^T\eta M = B \text{   onde } \eta = \left( \begin{matrix}
 		1 && 0 \\
-		0 && I
+		0 && -I
 	\end{matrix}\right).
 \end{equation}
 \paragraph{Resposta:}
 Calculando o produto matricial $ \eta M $, obtemos
 
 \begin{equation}\nonumber
-	\left(\begin{matrix}
+	M = \left(\begin{matrix}
 		a && b_1 && b_2 && b_3 \\
-		c_1 && D_{11} && 0 && 0 \\
-		c_2 && 0 && D_{22} && 0 \\
-		c_3 && 0 && 0 && D_{33}
-	\end{matrix}\right) = M
+		c_1 && D_{11} && D_{12} && D_{13} \\
+		c_2 && D_{21} && D_{22} && D_{23}\\
+		c_3 && D_{31} && D_{32} && D_{33}
+	\end{matrix}\right) 
 \end{equation}
 
 \begin{equation}\nonumber
@@ -338,18 +338,100 @@ Calculando o produto matricial $ \eta M $, obtemos
 	\end{matrix}\right)
 	\left(\begin{matrix}
 		a && b_1 && b_2 && b_3 \\
-		c_1 && D_{11} && 0 && 0 \\
-		c_2 && 0 && D_{22} && 0 \\
-		c_3 && 0 && 0 && D_{33}
+		c_1 && D_{11} && D_{12} && D_{13} \\
+		c_2 && D_{21} && D_{22} && D_{23}\\
+		c_3 && D_{31} && D_{32} && D_{33}
 	\end{matrix}\right) = H
 \end{equation}
 
 $$H = 	\left(\begin{matrix}
 	a && b_1 && b_2 && b_3 \\
-	-c_1 && -D_{11} && 0 && 0 \\
-	-c_2 && 0 && -D_{22} && 0 \\
-	-c_3 && 0 && 0 && -D_{33}
+	-c_1 && -D_{11} && -D_{12} && -D_{13} \\
+	-c_2 && -D_{21} && -D_{22} && -D_{23}\\
+	-c_3 && -D_{31} && -D_{32} && -D_{33}
 \end{matrix}\right)$$
 \end{enumerate}
-	
+Por fim,
+
+$$B = M^{T}H$$
+
+calculando $ M^{T} $, temos
+
+\begin{equation}\nonumber
+	M^{T} = \left(\begin{matrix}
+	a && c_1 && c_2 && c_3 \\
+	b_1 && D_{11} && D_{21} && D_{31}\\
+	b_2 && D_{12} && D_{22} && D_{32} \\
+	b_3 && D_{13} && D_{23} && D_{33}
+	\end{matrix}\right) 
+\end{equation}
+
+\begin{equation}\nonumber
+	B = \left(\begin{matrix}
+	a && c_1 && c_2 && c_3 \\
+	b_1 && D_{11} && D_{21} && D_{31}\\
+	b_2 && D_{12} && D_{22} && D_{32} \\
+	b_3 && D_{13} && D_{23} && D_{33}
+\end{matrix}\right) \left(\begin{matrix}
+a && b_1 && b_2 && b_3 \\
+-c_1 && -D_{11} && -D_{12} && -D_{13} \\
+-c_2 && -D_{21} && -D_{22} && -D_{23}\\
+-c_3 && -D_{31} && -D_{32} && -D_{33}
+\end{matrix}\right)
+\end{equation}
+
+Calculando as componentes de $ B $, temos
+
+\begin{eqnarray}
+	B_{00} = a^2 -c_1^2 - c_2^2 - c_3^2 \nonumber\\
+	B_{01} = ab_1 - D_{11}c_1 - D_{21}c_2 - D_{31}c_3 \nonumber\\
+	B_{02} = ab_2 - D_{12}c_1 - D_{22}c_2 - D_{32}c_3 \nonumber\\
+	B_{03} = ab_3 - D_{13}c_1 - D_{23}c_2 - D_{33}c_3 \nonumber\\
+	B_{10} = ab_1 - D_{11}c_1 - D_{21}c_2 - D_{31}c_3 \nonumber\\
+	B_{11} = b_1^2 - D_{11}^2 - D_{21}^2 - D_{31}^2 \nonumber\\
+	B_{12} = b_1b_2 - D_{11}D_{12} - D_{21}D_{22} - D_{31}D_{32} \nonumber\\
+	B_{13} = b_1b_3 - D_{11}D_{13} - D_{21}D_{23} - D_{31}D_{33} \nonumber\\
+	B_{20} = ab_2 - D_{12}c_1 - D_{22}c_2 - D_{32}c_3 \nonumber\\
+	B_{21} = b_1b_2 - D_{12}D_{11} - D_{22}D_{21} - D_{32}D_{31} \nonumber\\
+	B_{22} = b_2^2 - D_{12}^2 - D_{22}^2 - D_{32}^2 \nonumber\\
+	B_{23} = b_2b_3 - D_{12}D_{13} - D_{22}D_{23} - D_{32}D_{33} \nonumber\\
+	B_{30} = ab_3 - D_{13}c_1 - D_{23}c_2 - D_{33}c_3 \nonumber\\
+	B_{31} = b_1b_3 - D_{11}D_{13} - D_{21}D_{23} - D_{31}D_{33} \nonumber\\
+	B_{32} = b_2b_3 - D_{12}D_{13} - D_{22}D_{23} - D_{32}D_{33} \nonumber\\
+	B_{33} = b_3^2 - D_{13}^2 - D_{23}^2 - D_{33}^2 \nonumber
+\end{eqnarray}
+
+Se a matriz $ M $ respeita as condições do item anterior, então
+
+\begin{eqnarray}
+	B_{00} = a^2 -c_1^2 - c_2^2 - c_3^2 =1\nonumber\\
+	B_{01} = ab_1 - D_{11}c_1 - D_{21}c_2 - D_{31}c_3=0 \nonumber\\
+	B_{02} = ab_2 - D_{12}c_1 - D_{22}c_2 - D_{32}c_3=0 \nonumber\\
+	B_{03} = ab_3 - D_{13}c_1 - D_{23}c_2 - D_{33}c_3=0 \nonumber\\
+	B_{10} = ab_1 - D_{11}c_1 - D_{21}c_2 - D_{31}c_3=0 \nonumber\\
+	B_{11} = b_1^2 - D_{11}^2 - D_{21}^2 - D_{31}^2=1 \nonumber\\
+	B_{12} = b_1b_2 - D_{11}D_{12} - D_{21}D_{22} - D_{31}D_{32} =0\nonumber\\
+	B_{13} = b_1b_3 - D_{11}D_{13} - D_{21}D_{23} - D_{31}D_{33}=0 \nonumber\\
+	B_{20} = ab_2 - D_{12}c_1 - D_{22}c_2 - D_{32}c_3=0 \nonumber\\
+	B_{21} = b_1b_2 - D_{12}D_{11} - D_{22}D_{21} - D_{32}D_{31}=0 \nonumber\\
+	B_{22} = b_2^2 - D_{12}^2 - D_{22}^2 - D_{32}^2=1 \nonumber\\
+	B_{23} = b_2b_3 - D_{12}D_{13} - D_{22}D_{23} - D_{32}D_{33} \nonumber\\
+	B_{30} = ab_3 - D_{13}c_1 - D_{23}c_2 - D_{33}c_3 =0\nonumber\\
+	B_{31} = b_1b_3 - D_{11}D_{13} - D_{21}D_{23} - D_{31}D_{33} =0\nonumber\\
+	B_{32} = b_2b_3 - D_{12}D_{13} - D_{22}D_{23} - D_{32}D_{33}=0 \nonumber\\
+	B_{33} = b_3^2 - D_{13}^2 - D_{23}^2 - D_{33}^2 =1 \nonumber
+\end{eqnarray}
+portanto, B é dado por
+
+$$B = \left(\begin{matrix}
+	1&&0&&0&&0\\
+	0&&1&&0&&0\\
+	0&&0&&1&&0\\
+	0&&0&&0&&1
+\end{matrix}\right)$$
+
+e as condições do item (a) podem ser escritas por $ (M^T)_{\mu\alpha} (\eta)_{\alpha\beta} (M)_{\beta\nu }= \delta_{\mu\nu} $, pois obtemos as mesmas relações algébricas entre as componentes da matriz $ M $.
+
+\section{Décimo Primeiro Exercício}
+ 
 \end{document}
