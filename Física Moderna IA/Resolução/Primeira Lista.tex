@@ -684,4 +684,44 @@ calculando $-\gamma_2\gamma_1(\beta_1+\beta_2)  $ explicitamente, temos
 $$-\gamma_2\gamma_1(\beta_1+\beta_2)=- (1 -(\beta_2\beta_1)^2)^{-1} (\beta_1+\beta_2)$$
 
 A partir daqui não tenho uma ideia clara de como resolver esse exercício.
+Logo,
+
+\begin{equation}\nonumber
+	\Lambda' = \left(\begin{matrix}
+		(1 -(\beta_2\beta_1))^{-1}&&-(1-(\beta_2\beta_1)^2)^{-1} (\beta_1+\beta_2)&&0&&0\\
+		-(1-(\beta_2\beta_1)^2)^{-1} (\beta_1+\beta_2)&&(1 -(\beta_2\beta_1))^{-1}&&0&&0\\
+		0&&0&&1&&0\\
+		0&&0&&0&&1
+	\end{matrix}\right)
+\end{equation}
+Segundo o enunciado, isso equivale a uma unica transformação de Lorentz dada por
+
+$$\Lambda = \left(\begin{matrix}
+	\gamma&&-\gamma\beta&&0&&0\\
+	-\gamma\beta&&\gamma&&0&&0\\
+	0&&0&&1&&0\\
+	0&&0&&0&&1
+\end{matrix}\right)$$
+comparando os elementos da matriz, podemos encontrar a velocidade v, logo
+
+$$\gamma = (1 -(\beta_2\beta_1))^{-1}$$
+
+$$(1- \dfrac{v^2}{c^2})^{-1/2} = (1 -(\beta_2\beta_1))^{-1}$$
+
+$$(1- \dfrac{v^2}{c^2})^{1/2} = 1 -\beta_2\beta_1$$
+
+$$1- \dfrac{v^2}{c^2} = (1 -\beta_2\beta_1)^2$$
+
+$$1- \dfrac{v^2}{c^2} = 1 -2\beta_2\beta_1+(\beta_2\beta_1)^2$$
+
+$$- \dfrac{v^2}{c^2} =  -2\beta_2\beta_1+(\beta_2\beta_1)^2$$
+
+$$\dfrac{v^2}{c^2} =  2\dfrac{v_2}{c}\dfrac{v_1}{c}+(\dfrac{v_2}{c}\dfrac{v_1}{c})^2$$
+
+$$\dfrac{v^2}{c^2} =  2\dfrac{v_2}{c}\dfrac{v_1}{c}+(\dfrac{v_2}{c}\dfrac{v_1}{c})^2$$
+
+$$v^2 =  2v_1v_2-\frac{1}{c^2}(v_1v_2)^2$$
+
+$$v =  \sqrt{2v_1v_2-\frac{1}{c^2}(v_1v_2)^2}$$
+
 \end{document}
