@@ -293,11 +293,63 @@
 	
 	\item Agora escreva
 	\begin{equation}\nonumber
-		\left(\begin{matrix}
+		M =\left(\begin{matrix}
 			a && \mathbf{b}^{T} \\
-			\mathbf{c} && I
+			\mathbf{c} && D
 		\end{matrix}\right)
 	\end{equation}
-	\end{enumerate}
+com $ a $ um número $ D $ uma matriz $ 3 \times 3 $ e
+\begin{equation}\nonumber
+	b = \left(\begin{matrix}
+		b1 \\
+		b2 \\
+		b3
+	\end{matrix}\right) \,\,\, ,	b = \left(\begin{matrix}
+	c1 \\
+	c2 \\
+	c3
+\end{matrix}\right).
+\end{equation}
+Mostre que as condições obtidas no item anterior podem ser escritas como
+\begin{equation}\nonumber
+	M^T\eta M = B \text{   onde } \eta = \left( \begin{matrix}
+		1 && 0 \\
+		0 && I
+	\end{matrix}\right).
+\end{equation}
+\paragraph{Resposta:}
+Calculando o produto matricial $ \eta M $, obtemos
+
+\begin{equation}\nonumber
+	\left(\begin{matrix}
+		a && b_1 && b_2 && b_3 \\
+		c_1 && D_{11} && 0 && 0 \\
+		c_2 && 0 && D_{22} && 0 \\
+		c_3 && 0 && 0 && D_{33}
+	\end{matrix}\right) = M
+\end{equation}
+
+\begin{equation}\nonumber
+	\left(\begin{matrix}
+		1 && 0 && 0 && 0 \\
+		0 && -1 && 0 && 0 \\
+		0 && 0 && -1 && 0 \\
+		0 && 0 && 0 && -1
+	\end{matrix}\right)
+	\left(\begin{matrix}
+		a && b_1 && b_2 && b_3 \\
+		c_1 && D_{11} && 0 && 0 \\
+		c_2 && 0 && D_{22} && 0 \\
+		c_3 && 0 && 0 && D_{33}
+	\end{matrix}\right) = H
+\end{equation}
+
+$$H = 	\left(\begin{matrix}
+	a && b_1 && b_2 && b_3 \\
+	-c_1 && -D_{11} && 0 && 0 \\
+	-c_2 && 0 && -D_{22} && 0 \\
+	-c_3 && 0 && 0 && -D_{33}
+\end{matrix}\right)$$
+\end{enumerate}
 	
 \end{document}
