@@ -24,7 +24,7 @@
 	Até aqui nós escrevemos apenas transformações de Lorentz na direção \(x\).
 	Como seria uma transformação de Lorentz na direção \(y\)?	
 	\paragraph{Resposta:}
-	A transformação de Lorentz para a direção \(y\) tem a mesma forma algébrica que para a direção \(x\), porém lembrando que agora como o movimento se da apenas em \(y\), então as TL ficam como
+	A transformação de Lorentz para a direção \(y\) tem a mesma forma algébrica que para a direção \(x\), porém agora como o movimento se da apenas em \(y\), então as TL ficam como
 	
 	\begin{equation}
 		\begin{split}
@@ -38,15 +38,15 @@
 	\section{Terceiro Exercício}
 	A distância até a estrela mais distante da nossa galáxia é da ordem de $10^{5}$ anos-luz. Explique por que é possível, em princípio, para um ser humano viajar para tal estrela durante seu tempo de vida (digamos 80 anos) e faça uma estimativa da velocidade necessária para isso.
 	\paragraph{Resposta:}
-	Antes de começar qualquer cálculo, perceba que as medidas de intervalo de tempo e de distância são de um observador em repouso no referencial da Terra. Este problema é análogo ao paradoxo dos gêmeos.
+	Antes de começar qualquer cálculo, perceba que as medidas de intervalo de tempo e de distância são de um observador em repouso no referencial da Terra.
 	
-	Podemos definir o observador na Terra como o referencial S ( o observador na estrela está em repouso em relação ao referencial S) e o observador (o viajante) da nave em repouso em seu respectivo referencial S' que se distância da Terra com a velocidade iremos estimar, isto é, a velocidade relativa entre os referenciais S e S', lembrando que o sentido da velocidade do foguete se altera na mudança de referencial, logo,
+	Podemos definir o observador na Terra como o referencial S ( o observador na estrela está em repouso em relação ao referencial S) e o observador (o viajante) da nave em repouso em seu respectivo referencial S' que se distância da Terra com a velocidade que iremos estimar, isto é, a velocidade relativa entre os referenciais S e S'. Lembrando que o sentido da velocidade do foguete se altera na mudança de referencial, logo,
 	
 	\begin{equation}\label{v_foguete}
 		  v' = \dfrac{\Delta x'}{\Delta t'}
 	\end{equation}
 	
-	Sabendo que o observador na Terra realiza medidas de comprimento contraídas e intervalos de tempo dilatadas
+	Sabendo que o observador na Terra realiza medidas de comprimento contraídas e intervalos de tempo dilatados
 	\begin{equation}
 		\Delta x \approx 10^5 \text{  anos-luz    e  } \Delta t \approx \text{80 anos},
 	\end{equation}
@@ -74,7 +74,7 @@
 		&& \dfrac{ c v'}{\alpha} = c^2 - v'^2 \nonumber \\
 		&& v'^2 - \dfrac{ c v'}{\alpha} - c^2 = 0, \nonumber
 	\end{eqnarray}
-	usando Baskara, temos
+	usando Bhaskara, temos
 	\begin{eqnarray}
 		&& v' = -\dfrac{\frac{c}{\alpha} \pm \sqrt{\left(\frac{c}{\alpha}\right)^2 +4c^2}}{2} \nonumber \\
 		&& v' = \dfrac{-\frac{c}{\alpha} \pm c\sqrt{\frac{1}{\alpha^2} +4}}{2} \nonumber 
@@ -98,7 +98,7 @@
 	velocidade ele precisa ser produzido na atmosfera para percorrer 10 km e atingir o nível do mar?
 	
 	\paragraph{Resposta:}
-	Para esse problema, precisamos compreender que o tempo de  decaimento do múon é o tempo que ele vai percorrer \textbf{no seu referencial}. Vamos considerar então o referencial do múon como \(S\) e o referencial da Terra com \(S'\). Obviamente S' se move com relação ao múon, e em decorrência disso, a distância percorrida pelo múon será 
+	Para esse problema, precisamos compreender que o tempo de  decaimento do múon é o tempo que ele vai percorrer \textbf{no seu referencial}. Vamos considerar então o referencial do múon como \(S\) e o referencial da Terra com \(S'\). Obviamente \(S'\) se move com relação ao múon, e em decorrência disso, a distância percorrida pelo múon será 
 	
 	\begin{equation*}
 		\Delta x = \frac{1}{\gamma}\Delta x'
@@ -128,7 +128,7 @@
 	então
 	
 	\begin{equation}\nonumber
-		v = \frac{4,54\times 10^9\si{m/s}}{\sqrt{1+\left(\frac{4,54\times 10^9\si{m/s}}{3\times 10^8}\right)^2}} \approx 2,9934 \times 10^8 \si{m/s}
+		v = \frac{4,54\times 10^9\si{m/s}}{\sqrt{1+\left(\frac{4,54\times 10^9\si{m/s}}{3\times 10^8}\right)^2}} \approx 2,9934 \times 10^8 \si{m/s} 
 	\end{equation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -153,11 +153,11 @@
 		 
 		 Sabendo que $ \Delta y = \Delta y_0 = L_y $ e $\Delta x = \dfrac{\Delta x_0}{\gamma} =\dfrac{L_x}{\gamma} $, temos
 		 
-		 $$ \theta = \arctan\left(\frac{\Delta y}{\Delta x}\right) = \arctan\left(\frac{\Delta y_0}{ \dfrac{\Delta x_0}{\gamma}}\right) =\arctan\left(\frac{\Delta y_0}{ \dfrac{\Delta x_0}{\gamma}}\right) = \arctan(\gamma\alpha)$$
+		 $$ \theta = \arctan\left(\frac{\Delta y}{\Delta x}\right) = \arctan\left(\frac{\Delta y_0}{ \dfrac{\Delta x_0}{\gamma}}\right) = \arctan(\gamma^{-1}\alpha)$$
 		 
-		 $$\theta = \arctan(\gamma\alpha) = \arctan(\gamma\tan (\theta_0))$$
+		 $$\theta = \arctan(\gamma^{-1}\alpha) = \arctan(\gamma^{-1}\tan (\theta_0))$$
 		 
-		$$ \therefore \theta  = \arctan(\gamma\tan (\theta_0))$$
+		$$ \therefore \theta  = \arctan(\gamma^{-1}\tan (\theta_0))$$
 		
 		\item Qual o comprimento L da barra em S?
 		 \paragraph{Resposta:}
@@ -207,7 +207,7 @@
 	\begin{itemize}
 		\item[(a)] Se a velocidade da luz é constante o espaço deve se contrair, ou se dilatar?
 		
-		\paragraph{Resposta:} Por conta da constância da velocidade da luz, o espaço deve se contrair, pois \textbf{uma medida de distância deve ser feita simultaneamente}, ou seja, os dois pontos devem ser medios no mesmo instante. Mas como sabemos, para um referencial que se move com relação ao que faz as medidas simultaneamente, certamente ele não conseguirá fazer medidas ao mesmo tempo. O resultado disso é uma medida contraída para este.
+		\paragraph{Resposta:} Por conta da constância da velocidade da luz, o espaço deve se contrair, pois \textbf{uma medida de distância deve ser feita simultaneamente}, ou seja, os dois pontos devem ser medidos no mesmo instante. Mas como sabemos, para um referencial que se move com relação ao que faz as medidas simultaneamente, certamente ele não conseguirá fazer medidas ao mesmo tempo. O resultado disso é uma medida contraída para este.
 		
 		
 		\item[(b)] Como você explica (i.e qual o significado Físico) da dilatação espacial em (\ref{dilatacao espacial})?
@@ -246,14 +246,32 @@
 	 $$ v \dfrac{1}{c^2} = 3$$
 	 
 	 $$ v = 3c^2$$
-	O referencial S' precisaria estar a uma velocidade relativa ao referencial S de $ 3c^2 $, portanto não é encontrar um referencial que consiga registrar os dois eventos ocorrendo simultaneamente.
+	O referencial S' precisaria estar a uma velocidade relativa ao referencial S de $ 3c^2 $, portanto não é possível encontrar um referencial que consiga registrar os dois eventos ocorrendo simultaneamente.
 	
-	Outra maneira de resolver esse problema é verificar qual tipo de distância que temos entre os eventos
+	Outra maneira de resolver esse problema é verificar qual tipo de intervalo que temos entre os eventos
 	
 	$$( (\Delta s)^2 = \Delta x)^2 - c^2 (\Delta t)^2 = 1^2 -9c^2 < 0 $$
 	portanto, a distância entre os evento é do tipo-tempo, ou seja, há uma relação de causalidade entre os eventos, logo é impossível encontrar um referencial que consiga ver os dois eventos ocorrerem simultaneamente.
 	
 	%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Oitavo Exercício}
+	Considere a seguinte transformação entre os referenciais: 
+	\begin{align*}
+	&x' = \frac{1}{2}\left[\gamma(x-z)+x+z-\gamma tv\sqrt{2}\right] \\
+	&z'=\frac{1}{2}\left[\gamma(z-x)+x+z+\gamma tv\sqrt{2}\right]\\
+	&t'=\frac{\gamma}{\sqrt{2}}\left[\frac{v}{c^2}(z-x)+\sqrt{2}t\right] \\
+	&y'=y, \;\; \gamma = (1-\beta^2)^{-1/2}, \;\; \beta = \frac{v}{c}
+	\end{align*}
+	
+	Essa transformação é compatível com o segundo postulado de Einstein? 
+	
+	\paragraph{Resposta:} Substituir as transformações dadas no invariante $ds^2$ e verificar que 
+	
+	\begin{equation*}
+	 ds^2 = ds'^2
+	\end{equation*}
+	%%%%%%%%%%%%%%%%%%%%%
 	
 	\section{Nono Exercício}
 	Num sistema onde nomeamos as coordenadas como
@@ -400,11 +418,11 @@
 	\end{equation}
 com $ a $ um número $ D $ uma matriz $ 3 \times 3 $ e
 \begin{equation}\nonumber
-	b = \left(\begin{matrix}
+	\mathbf{b} = \left(\begin{matrix}
 		b1 \\
 		b2 \\
 		b3
-	\end{matrix}\right) \,\,\, ,	b = \left(\begin{matrix}
+	\end{matrix}\right) \,\, , \,\, 	\mathbf{c} = \left(\begin{matrix}
 	c1 \\
 	c2 \\
 	c3
