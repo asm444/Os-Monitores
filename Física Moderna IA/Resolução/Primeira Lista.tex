@@ -543,24 +543,43 @@ Considere um fio onde corre uma corrente $I$. No referencial do laboratório, qu
 \paragraph{Resposta:} Primeiro vamos analisar o referencial $S$. Para ele, o fio está parado, porém a carga que passa no fio gera um campo magnético radial em torno do eixo $y$, dado por 
 
 \begin{equation*}
-		\mathbf{B} = \frac{\mu_0I}{2\pi r}\mathbf{\hat{s}} 
+		\mathbf{B} = \frac{\mu_0I}{2\pi s}\mathbf{\hat{s}} 
 \end{equation*}
 
-onde $r$ é a distância onde está sendo calculado o campo e $\mathbf{\hat{r}}$ um vetor unitário em torno de $y$. 
+onde $s$ é a distância onde está sendo calculado o campo e $\mathbf{\hat{s}}$ um vetor unitário radial em torno de $y$. 
 
 Como também esse referencial possui uma carga elétrica, ela gerará um campo elétrico radial dado por 
 
 \begin{equation*}
-\mathbf{E} = \frac{1}{4\pi \varepsilon_0}\frac{q}{d^2}\mathbf{\hat{r}}
+\mathbf{E} = \frac{1}{4\pi \varepsilon_0}\frac{q}{r^2}\mathbf{\hat{r}}
 \end{equation*}
 
 onde $\mathbf{\hat{r}}$ é um vetor unitário na direção radial. 
 
-Para o referencial $\tilde{S}$, veja que ele se desloca com a mesma velocidade que as cargas no fio do referencial $S$, dessa forma, $\tilde{S}$ só vai verificar o campo gerado pela carga elétrica (pois o fio não tem carga líquida) e ele será dado por 
+Para o referencial $\tilde{S}$, haverá uma contração do fio na direção do movimento, ou seja, a densidade de cargas será maior, de forma que o fio \textbf{não estará mais neutro}, ou seja, sua carga líquida não será mais zero. Portanto, além do campo magnético gerado pela corrente elétrica e o campo elétrico da carga, o referencial $\tilde{S}$ vai verificar também um campo elétrico gerado pelo próprio fio, que agora não é mais neutro. Além disso, agora a carga elétrica também se move, de forma que ela produzirá um campo magnético. Portanto os campos são 
+
+\begin{align*}
+&\mathbf{\hat{B}}_{carga}=-\frac{\mu_0}{4\pi}\frac{qv(1-v^2/^2\sin\theta}{[1-(v^2/c^2)\sin^2\theta]^{3/2}}\frac{\mathbf{\tilde{\hat{s}}}}{s}\\
+&\mathbf{\tilde{B}}_{fio} = -\frac{\mu_0I}{2\pi s}\mathbf{\tilde{\hat{s}}} \\
+&\mathbf{\tilde{E}}_{carga} = \frac{1}{4\pi \varepsilon_0}\frac{q}{r^2}\mathbf{\tilde{\hat{r}}}\\
+&\mathbf{\tilde{E}}_{fio} = \frac{1}{2\pi \varepsilon_0}\frac{\lambda}{r}\mathbf{\tilde{\hat{r}}}
+\end{align*}
+
+O sinal de menos para os campos magnéticos se da por conta da escolha do sentido vertical para cima como positivo. 
+\item[(b)]Determine as forças que agem na carga q quando medidas por observadores nos referenciais $S$ e $\tilde{S}$. 
+
+\paragraph{Resposta:} Novamente, vamos começar analisando para o referencial $S$. Nesse referencial, o campo magnético produzido pela corrente no fio realiza um força  sobre a carga. Onde, pela regra da mão esquerda, temos que essa força é dada por 
 
 \begin{equation*}
-\mathbf{\tilde{E}} = \frac{1}{4\pi \varepsilon_0}\frac{1}{\tilde{d}^2}\mathbf{\tilde{\hat{r}}}
+	\mathbf{F} = q\mathbf{v}\times\mathbf{B} = q\mathbf{v}\times\left(\frac{\mu_0I}{2\pi R}\mathbf{\hat{s}}\right) = \left(\frac{\mu_0 q I}{2\pi R}\right)\mathbf{v}\times \mathbf{B} = \left(\frac{\mu_0 q I}{2\pi R}\right)\mathbf{\hat{x}}
 \end{equation*}
+
+Para o referencial $\tilde{S}$, como já analisamos antes, a corrente se da no sentido oposto, e surge uma densidade de cargas no fio. Portanto o fio exerce tanto uma força elétrica, quanto magnética sobre a carga. Dada por 
+
+\begin{equation*}
+\mathbf{\hat{F}} = q[\mathbf{\tilde{E}} + v\times \mathbf{\tilde{B}}] = q\left[\frac{1}{2\pi \varepsilon_0}\frac{\lambda}{r}\mathbf{\tilde{\hat{r}}} - \mathbf{\tilde{v}}\times\left(\frac{\mu_0I}{2\pi s}\mathbf{\tilde{\hat{s}}}\right)\right] = q\left[\frac{1}{2\pi \varepsilon_0}\frac{\lambda}{r}\mathbf{\tilde{\hat{r}}}-\left(\frac{\mu_0 I}{2\pi s}\right)\mathbf{\tilde{\hat{x}}}\right]
+\end{equation*}
+
 \end{itemize} 
  
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
