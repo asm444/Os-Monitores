@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  11 SEP 2022 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  11 SEP 2022 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -362,70 +362,65 @@ Overfull \hbox (61.58354pt too wide) detected at line 290
 \OT1/cmr/m/n/10 (^^A\OML/cmm/m/it/10 x[]\OT1/cmr/m/n/10 )[] = [] [][]
  []
 
-[8]
-
-LaTeX Warning: Command \' invalid in math mode on input line 341.
-
-Missing character: There is no ú in font cmr10!
-
-Overfull \hbox (13.47101pt too wide) detected at line 386
+[8] [9] [10]
+Overfull \hbox (13.47101pt too wide) detected at line 489
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 386
+Overfull \hbox (25.00003pt too wide) detected at line 489
 [][]
  []
 
-[9]
-Overfull \hbox (3.2696pt too wide) detected at line 403
+[11]
+Overfull \hbox (3.2696pt too wide) detected at line 506
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 403
+Overfull \hbox (25.00003pt too wide) detected at line 506
 [][]
  []
 
 
-Overfull \hbox (13.47101pt too wide) detected at line 422
+Overfull \hbox (13.47101pt too wide) detected at line 525
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 422
+Overfull \hbox (25.00003pt too wide) detected at line 525
 [][]
  []
 
 
-Overfull \hbox (13.47101pt too wide) detected at line 440
+Overfull \hbox (13.47101pt too wide) detected at line 543
 []
  []
 
 
-Overfull \hbox (25.00003pt too wide) detected at line 440
+Overfull \hbox (25.00003pt too wide) detected at line 543
 [][]
  []
 
-[10] [11] [12] [13] [14]
-Overfull \hbox (0.26315pt too wide) detected at line 669
+[12] [13] [14] [15] [16]
+Overfull \hbox (0.26315pt too wide) detected at line 772
 [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 q\OT1/cmr/m/n/10 [[] + \OML/cmm/m/it/10 v
  \OMS/cmsy/m/n/10 ^^B []\OT1/cmr/m/n/10 ] = \OML/cmm/m/it/10 q [] \OT1/cmr/m/n/
 10 = \OML/cmm/m/it/10 q []
  []
 
-[15]
-Overfull \hbox (13.02916pt too wide) detected at line 772
+[17]
+Overfull \hbox (13.02916pt too wide) detected at line 875
 [][] \OT1/cmr/m/n/10 = [] [] []
  []
 
 
-Overfull \hbox (100.98317pt too wide) in alignment at lines 803--805
+Overfull \hbox (100.98317pt too wide) in alignment at lines 906--908
  [][][] []
  []
 
 
-Overfull \hbox (6.06355pt too wide) detected at line 815
+Overfull \hbox (6.06355pt too wide) detected at line 918
 \OML/cmm/m/it/10 ^^M[]^^M[]\OT1/cmr/m/n/10 (1 + \OML/cmm/m/it/10 ^^L[]^^L[]\OT1
 /cmr/m/n/10 ) = (1 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^L[]
 ^^L[]\OT1/cmr/m/n/10 )[])[](1 + \OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/n/10 ) = 
@@ -434,7 +429,7 @@ n/10 ))[](1 + (\OML/cmm/m/it/10 ^^L[]^^L[]\OT1/cmr/m/n/10 ))[](1 + \OML/cmm/m/i
 t/10 ^^L[]^^L[]\OT1/cmr/m/n/10 )
  []
 
-[16] [17] (Primeira Lista.aux) ) 
+[18] [19] (Primeira Lista.aux) ) 
 Here is how much of TeX's memory you used:
  8842 strings out of 477992
  188963 string characters out of 2827466
@@ -462,9 +457,9 @@ rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/arthu/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/arth
 u/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on "Primeira Lista.pdf" (17 pages, 239197 bytes).
+Output written on "Primeira Lista.pdf" (19 pages, 243600 bytes).
 PDF statistics:
- 314 PDF objects out of 1000 (max. 8388607)
+ 321 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
