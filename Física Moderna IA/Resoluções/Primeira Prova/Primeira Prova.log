@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  2 OCT 2022 13:22
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.8.31)  2 OCT 2022 12:40
+>>>>>>> 68e288f (Adicionando Exercício 2)
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,7 +140,20 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+<<<<<<< HEAD
 )) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+=======
+))
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count274
+\float@exts=\toks25
+\float@box=\box52
+\@float@everytoks=\toks26
+\@floatcapt=\box53
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+>>>>>>> 68e288f (Adicionando Exercício 2)
 Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
@@ -162,9 +179,15 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2022-08-08 v3.1.6 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen158
+<<<<<<< HEAD
 \l__siunitx_angle_marker_box=\box53
 \l__siunitx_angle_unit_box=\box54
 \l__siunitx_compound_count_int=\count274
+=======
+\l__siunitx_angle_marker_box=\box54
+\l__siunitx_angle_unit_box=\box55
+\l__siunitx_compound_count_int=\count275
+>>>>>>> 68e288f (Adicionando Exercício 2)
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
 ns.sty
@@ -173,7 +196,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count276
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
@@ -191,6 +214,7 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
+<<<<<<< HEAD
 \l__siunitx_number_exponent_fixed_int=\count276
 \l__siunitx_number_min_decimal_int=\count277
 \l__siunitx_number_min_integer_int=\count278
@@ -211,14 +235,46 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_unit_position_int=\count284
 \l__siunitx_unit_total_int=\count285
  (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+=======
+\l__siunitx_number_exponent_fixed_int=\count277
+\l__siunitx_number_min_decimal_int=\count278
+\l__siunitx_number_min_integer_int=\count279
+\l__siunitx_number_round_precision_int=\count280
+\l__siunitx_number_group_minimum_int=\count281
+\l__siunitx_table_tmp_box=\box56
+\l__siunitx_table_tmp_dim=\dimen159
+\l__siunitx_table_column_width_dim=\dimen160
+\l__siunitx_table_integer_box=\box57
+\l__siunitx_table_decimal_box=\box58
+\l__siunitx_table_before_box=\box59
+\l__siunitx_table_after_box=\box60
+\l__siunitx_table_before_dim=\dimen161
+\l__siunitx_table_carry_dim=\dimen162
+\l__siunitx_unit_tmp_int=\count282
+\l__siunitx_unit_position_int=\count283
+\l__siunitx_unit_total_int=\count284
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count285
+\l__pdf_internal_box=\box61
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+>>>>>>> 68e288f (Adicionando Exercício 2)
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen163
-\ar@mcellbox=\box60
+\ar@mcellbox=\box62
 \extrarowheight=\dimen164
-\NC@list=\toks25
+\NC@list=\toks27
 \extratabsurround=\skip52
 \backup@length=\skip53
-\ar@cellbox=\box61
+\ar@cellbox=\box63
 ))
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
@@ -260,10 +316,18 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \c@section@level=\count286
 )
 \@linkdim=\dimen165
+<<<<<<< HEAD
 \Hy@linkcounter=\count287
 \Hy@pagecounter=\count288
  (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+=======
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+>>>>>>> 68e288f (Adicionando Exercício 2)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
@@ -272,9 +336,16 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
+<<<<<<< HEAD
 \Hy@SavedSpaceFactor=\count289
  (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+=======
+\Hy@SavedSpaceFactor=\count288
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+>>>>>>> 68e288f (Adicionando Exercício 2)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -284,8 +355,13 @@ Package hyperref Info: Hyper index ON on input line 4170.
 Package hyperref Info: Plain pages OFF on input line 4177.
 Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+<<<<<<< HEAD
 Package hyperref Info: Bookmarks ON on input line 4408.
 \c@Hy@tempcnt=\count290
+=======
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count289
+>>>>>>> 68e288f (Adicionando Exercício 2)
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
@@ -302,7 +378,11 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
+<<<<<<< HEAD
 \Fld@menulength=\count291
+=======
+\Fld@menulength=\count290
+>>>>>>> 68e288f (Adicionando Exercício 2)
 \Field@Width=\dimen167
 \Fld@charsize=\dimen168
 Package hyperref Info: Hyper figures OFF on input line 6024.
@@ -317,9 +397,15 @@ Package hyperref Info: PDF/A mode OFF on input line 6054.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
+<<<<<<< HEAD
 \Hy@abspage=\count292
 \c@Item=\count293
 \c@Hfootnote=\count294
+=======
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
+>>>>>>> 68e288f (Adicionando Exercício 2)
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -330,8 +416,13 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
+<<<<<<< HEAD
 \Fld@listcount=\count295
 \c@bookmark@seq@number=\count296
+=======
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
+>>>>>>> 68e288f (Adicionando Exercício 2)
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -350,21 +441,34 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+<<<<<<< HEAD
 \calc@Acount=\count297
 \calc@Bcount=\count298
+=======
+\calc@Acount=\count296
+\calc@Bcount=\count297
+>>>>>>> 68e288f (Adicionando Exercício 2)
 \calc@Adimen=\dimen169
 \calc@Bdimen=\dimen170
 \calc@Askip=\skip55
 \calc@Bskip=\skip56
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
+<<<<<<< HEAD
 \calc@Ccount=\count299
+=======
+\calc@Ccount=\count298
+>>>>>>> 68e288f (Adicionando Exercício 2)
 \calc@Cskip=\skip57
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
+<<<<<<< HEAD
 \g_MT_multlinerow_int=\count300
+=======
+\g_MT_multlinerow_int=\count299
+>>>>>>> 68e288f (Adicionando Exercício 2)
 \l_MT_multwidth_dim=\dimen171
 \origjot=\skip58
 \l_MT_shortvdotswithinadjustabove_dim=\dimen172
@@ -373,17 +477,28 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_intertext_sep=\dimen175
 \l_MT_above_shortintertext_sep=\dimen176
 \l_MT_below_shortintertext_sep=\dimen177
-\xmathstrut@box=\box62
+\xmathstrut@box=\box64
 \xmathstrut@dim=\dimen178
+<<<<<<< HEAD
 ) (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2022/07/20 3.78 The Babel package
 \babel@savecnt=\count301
+=======
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/01/26 3.70 The Babel package
+\babel@savecnt=\count300
+>>>>>>> 68e288f (Adicionando Exercício 2)
 \U@D=\dimen179
 \l@unhyphenated=\language79
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
+<<<<<<< HEAD
 \bbl@dirlevel=\count302
+=======
+\bbl@dirlevel=\count301
+>>>>>>> 68e288f (Adicionando Exercício 2)
 
 *************************************
 * Local config file bblopts.cfg used
@@ -410,24 +525,24 @@ File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
 ) (Primeira Prova.aux)
 \openout1 = `"Primeira Prova.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -467,6 +582,7 @@ LaTeX Font Info:    ... okay on input line 15.
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
+<<<<<<< HEAD
 \scratchcounter=\count304
 \scratchdimen=\dimen180
 \scratchbox=\box64
@@ -481,6 +597,20 @@ ii
 )
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
+=======
+\scratchcounter=\count302
+\scratchdimen=\dimen180
+\scratchbox=\box65
+\nofMPsegments=\count303
+\nofMParguments=\count304
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count305
+\MPscratchDim=\dimen181
+\MPnumerator=\count306
+\makeMPintoPDFobject=\count307
+\everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+>>>>>>> 68e288f (Adicionando Exercício 2)
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
@@ -506,32 +636,68 @@ Package color Info: Driver file: pdftex.def on input line 149.
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolor.
 ltx))
 Package translations Info: no dictionary file `translations-basic-dictionary-po
+<<<<<<< HEAD
 rtuges.trsl' found. on input line 15.
 Package hyperref Info: Link coloring OFF on input line 15.
  (Primeira Prova.out) (Primeira Prova.out)
+=======
+rtuges.trsl' found. on input line 16.
+Package hyperref Info: Link coloring OFF on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count308
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+(./Primeira Prova.out) (./Primeira Prova.out)
+>>>>>>> 68e288f (Adicionando Exercício 2)
 \@outlinefile=\write3
 \openout3 = `"Primeira Prova.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
 
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
 
 
 (C:\Users\arthu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<<<<<<< HEAD
 [1
 
 {C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
 [3] (Primeira Prova.aux)
+=======
+<figuras/boost.png, id=9, 604.2575pt x 449.68pt>
+File: figuras/boost.png Graphic file (type png)
+<use figuras/boost.png>
+Package pdftex.def Info: figuras/boost.png  used on input line 66.
+(pdftex.def)             Requested size: 181.27864pt x 134.90503pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figuras/boost.png>] [2] 
+[3]
+(./Primeira Prova.aux)
+>>>>>>> 68e288f (Adicionando Exercício 2)
 Package rerunfilecheck Info: File `"Primeira Prova".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  15532 strings out of 477992
  293808 string characters out of 2827466
  602920 words of memory out of 3000000
@@ -559,4 +725,31 @@ PDF statistics:
  229 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 15339 strings out of 478287
+ 282069 string characters out of 5849289
+ 595592 words of memory out of 5000000
+ 33313 multiletter control sequences out of 15000+600000
+ 481135 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,21n,79p,862b,879s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/
+texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/pu
+blic/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm17
+28.pfb>
+Output written on "Primeira Prova.pdf" (3 pages, 169908 bytes).
+PDF statistics:
+ 123 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 30 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 68e288f (Adicionando Exercício 2)
 

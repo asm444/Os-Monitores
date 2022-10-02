@@ -4,6 +4,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{float}
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{siunitx}
@@ -54,10 +55,110 @@
 	\end{enumerate}
 	
 	\item Escreva a matriz $\Lambda$ para uma transformação de Lorentz (um boost) com velocidade 
-	\begin{equation}
+	\begin{equation}\label{velocidade arbitrária}
 	\mathbf{v} = \frac{b\sqrt{3}}{2}\mathbf{\hat{y}}-\frac{b}{2}\mathbf{\hat{z}}, \;\; b = \text{ constante}
 	\end{equation}
 	
+	\paragraph{Solução:} Como esse boost tem uma direção arbitrária, é necessário aplicarmos uma rotação para alinhar os eixos. Pela velocidade só ter componentes em $\mathbf{\hat{y}}$ e $\mathbf{\hat{z}}$, podemos tratar esse problema como bidimensional (por conveniência). A seguir está representado esquematicamente a situação 
+	
+	\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.30]{figuras/boost.png}
+	\caption{Movimento entre dois referenciais para uma velocidade igual a (\ref{velocidade arbitrária})}
+	\end{figure}
+	
+	A partir dessa figura, é fácil ver que se rotacionarmos os referenciais em torno de $x$ de um ângulo $\theta$ (que pode ser encontrado mais tarde), alinhamos o eixo $y$ com a direção da velocidade e então podemos aplicar a matriz e boost para $y$, dada por 
+	
+\begin{equation} 
+\tilde{\Lambda}=\begin{pmatrix}
+\gamma & 0 & -\gamma \beta & 0 \\ 
+0 & 1 & 0 & 0 \\ 
+-\gamma \beta & 0 & \gamma & 0 \\ 
+0 & 0 & 0 & 1
+\end{pmatrix} 
+\end{equation}
+
+A matriz de rotação em torno de $x$ é dada por 
+
+\begin{equation}
+R_{(x)}=\begin{pmatrix}
+1 & 0 & 0 & 0 \\ 
+1 & 0 & 0 & 0 \\ 
+0 & 0 & \cos\theta & \sin\theta \\ 
+0 & 0 & -\sin\theta & \cos\theta
+\end{pmatrix} 
+\end{equation}
+
+Como $R_{(x)} \in SO(3)$, então $R^{-1} = R^T$. Então
+
+\begin{equation}
+R_{(x)}^{-1}=\begin{pmatrix}
+1 & 1 & 0 & 0 \\ 
+0 & 0 & 0 & 0 \\ 
+0 & 0 & \cos\theta & -\sin\theta \\ 
+0 & 0 & \sin\theta & \cos\theta
+\end{pmatrix} 
+\end{equation}
+
+Portanto, a matriz que faz esse boost é dada por 
+
+\begin{equation} \label{boost arbitrário}
+\begin{split}
+&\Lambda = R_{(x)}^{-1}\tilde{\Lambda}R_{(x)} = \begin{pmatrix}
+1 & 1 & 0 & 0 \\ 
+0 & 0 & 0 & 0 \\ 
+0 & 0 & \cos\theta & -\sin\theta \\ 
+0 & 0 & \sin\theta & \cos\theta
+\end{pmatrix} \begin{pmatrix}
+\gamma & 0 & -\gamma \beta & 0 \\ 
+0 & 1 & 0 & 0 \\ 
+-\gamma \beta & 0 & \gamma & 0 \\ 
+0 & 0 & 0 & 1
+\end{pmatrix} \begin{pmatrix}
+1 & 0 & 0 & 0 \\ 
+1 & 0 & 0 & 0 \\ 
+0 & 0 & \cos\theta & \sin\theta \\ 
+0 & 0 & -\sin\theta & \cos\theta
+\end{pmatrix} 
+\\  =& \begin{pmatrix}
+\gamma & 1 & -\gamma \beta & 0 \\ 
+0 & 0 & 0 & 0 \\ 
+-\gamma \beta \cos\theta & 0 & \beta \cos\theta & -\sin\theta \\ 
+-\gamma \beta \sin\theta & 0 & \beta \sin\theta & \cos\theta
+\end{pmatrix} \begin{pmatrix}
+1 & 0 & 0 & 0 \\ 
+1 & 0 & 0 & 0 \\ 
+0 & 0 & \cos\theta & \sin\theta \\ 
+0 & 0 & -\sin\theta & \cos\theta
+\end{pmatrix} \\ =  &\begin{pmatrix}
+\gamma +1 & 0 & -\gamma \beta \cos\theta & -\gamma \beta \sin\theta \\ 
+0 & 0 & 0 & 0 \\ 
+-\gamma \beta \cos\theta & 0 & \beta \cos^2\theta+\sin^2\theta & \beta \cos\theta \sin\theta - \sin\theta \cos\theta \\ 
+-\gamma \beta \sin\theta & 0 & \beta \cos\theta \sin\theta - \sin\theta \cos\theta & \beta \sin^2\theta + \cos^2\theta
+\end{pmatrix} 
+\end{split} 
+\end{equation}
+
+Sabendo que o módulo de $\mathbf{v}$ é dado por 
+
+\begin{equation}
+v = \sqrt{\frac{3b^2}{4}+\frac{b^2}{2}} = \sqrt{\frac{5}{4}b^2} = \frac{\sqrt{5}}{2}b
+\end{equation}
+
+temos
+
+\begin{equation}
+\mathbf{v}\cdot\mathbf{\hat{y}} = vy\cos\theta \Rightarrow \cos\theta = \frac{\frac{\sqrt{3}b}{2}}{\frac{\sqrt{5}b}{2}} = \sqrt{\frac{3}{5}} = 0,999908616 
+\end{equation}
+
+Portanto 
+
+\begin{equation}
+\theta = \arccos(0,999908616) = 0,774597372
+\end{equation}
+	
+	
+Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz esse boost.
 	\item Considere um túnel (reto e muito longo). O comprimento próprio do túnel (ou seja, medido por um observador parado com o túnel) vale L. Fixo na entrada do túnel temos um relógio, que vamos chamar de $R_1$ , e outro relógio fixo na saída do túnel, que vamos chamar de $R_2$. Os relógios $R_1$ e $R_2$ estão perfeitamente sincronizados no referencial do túnel (i.e., num referencial onde o túnel está parado). Considere agora um carro (muito rápido) que entra no túnel. O piloto do carro também possui um relógio (ou seja, um relógio que anda junto com o carro). Quando o carro entrou no túnel tanto o relógio do piloto, quanto o relógio $R_1$ (o da entrada do túnel) marcavam um tempo igual a zero. Sabendo que, no instante em que o carro saiu do túnel, o relógio do piloto marcava um tempo
 	
 	\begin{equation}
