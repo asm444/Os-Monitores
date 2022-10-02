@@ -1,0 +1,77 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=2cm, bottom= 2cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage[portuguese]{babel}
+\author{Arthur de Souza Molina e Gabriel Capelini Magalhaes}
+\title{Resolução da primeira prova de Física Moderna 1 A}
+\begin{document}
+	\maketitle
+	
+	\begin{enumerate}
+	\item Considere o seguinte conjunto de matrizes $\Lambda$: 
+	\begin{equation} \label{metrica}
+	\Lambda^{T} \eta \Lambda = \eta \Rightarrow \Lambda \in O(3,1)
+	\end{equation}
+	
+	onde $\eta$ é a métrica do espaço de Minkowsky. 
+	\begin{enumerate}
+	\item Determine os possíveis valores para o determinante de $\Lambda$
+	\paragraph{Solução:} Tomando o determinante de ambos os lados de (\ref{metrica}), temos 
+	
+	\begin{equation}
+\begin{split}
+	&\text{det}(\Lambda^{T} \eta \Lambda) = \det(\eta) \Rightarrow \text{det}(\Lambda^{T})\text{det}(\eta)\text{det}(\Lambda) = \det(\eta)\Rightarrow \text{det}(\Lambda^{T})\text{det}(\Lambda) = 1 \\ 
+	&\Rightarrow (\text{det}(\Lambda))^2 = 1 \Rightarrow \text{det}(\Lambda) = \pm 1	
+	\end{split}
+	\end{equation}
+	
+	onde foi usado $\text{det}(\Lambda^T) = \text{det}(\Lambda)$ e $\text{det}(\eta) = -1$.
+	\item O subconjunto
+	\begin{equation} \label{det negativo}
+	\Lambda \in O(3,1) \quad \text{com} \quad \text{det }\Lambda = -1
+	\end{equation}
+	forma um grupo?
+	
+	\paragraph{Solução:} Vamos checar as propriedades de grupos para verificar se (\ref{det negativo}) forma um grupo
+	\begin{enumerate}
+	\item Fechado 
+	
+	Sejam duas matrizes $\Lambda$ e $\Lambda'$ em que $\text{det}\Lambda = \text{det}\Lambda' = -1$. Temos então que 
+	\begin{equation}
+	\Lambda \cdot \Lambda' = \Lambda'' \Rightarrow \text{det}(\Lambda \cdot \Lambda') = \text{det}(\Lambda''	) \Rightarrow \text{det}(\Lambda)\cdot \text{det}(\Lambda') = \text{det}(\Lambda'') \Rightarrow \text{det}(\Lambda'') = 1
+	\end{equation}
+	
+	Portanto, veja que o produto de duas matrizes de determinante igual a -1 nos dá uma matriz com determinante igual a 1. Porém, de (\ref{det negativo}) temos que esse subconjunto são todas as matrizes com determinante igual a -1. Logo o produto de duas matrizes pertencentes a (\ref{det negativo}) não produz uma matriz que pertence a (\ref{det negativo}). Portanto não pode formar um grupo.
+	\end{enumerate}
+	\end{enumerate}
+	
+	\item Escreva a matriz $\Lambda$ para uma transformação de Lorentz (um boost) com velocidade 
+	\begin{equation}
+	\mathbf{v} = \frac{b\sqrt{3}}{2}\mathbf{\hat{y}}-\frac{b}{2}\mathbf{\hat{z}}, \;\; b = \text{ constante}
+	\end{equation}
+	
+	\item Considere um túnel (reto e muito longo). O comprimento próprio do túnel (ou seja, medido por um observador parado com o túnel) vale L. Fixo na entrada do túnel temos um relógio, que vamos chamar de $R_1$ , e outro relógio fixo na saída do túnel, que vamos chamar de $R_2$. Os relógios $R_1$ e $R_2$ estão perfeitamente sincronizados no referencial do túnel (i.e., num referencial onde o túnel está parado). Considere agora um carro (muito rápido) que entra no túnel. O piloto do carro também possui um relógio (ou seja, um relógio que anda junto com o carro). Quando o carro entrou no túnel tanto o relógio do piloto, quanto o relógio $R_1$ (o da entrada do túnel) marcavam um tempo igual a zero. Sabendo que, no instante em que o carro saiu do túnel, o relógio do piloto marcava um tempo
+	
+	\begin{equation}
+	T = \frac{2L}{c}
+	\end{equation}
+	
+	quanto marcava o relógio $R_2$ (o da saída do túnel) neste instante?
+	
+	\item Considere um fio onde corre uma corrente $I$. No referencial do laboratório, que vamos chamar de $S$, o fio está parado, possui uma densidade de carga $\rho$ (i.e, o fio \textbf{não é neutro}) e se estende reto paralelo ao eixo y. Ainda para esse referencial $S$, os elétrons responsáveis pela corrente se deslocam pelo fio com velocidade constante $\mathbf{v} =v \mathbf{\hat{y}}$. Considere também um outro referencial S que se desloca com relação à S, com velocidade $\mathbf{V} = \mathbf{v} = v\mathbf{\hat{y}}$
+	\begin{enumerate}
+	\item Determine os campos elétricos e magnéticos nos referenciais $S$ e $\tilde{S}$
+	
+	\item Considere agora uma carga q a uma distância $R$ do fio. A carga está parada com relação ao referencial $S$ (o laboratório). Determine as forças que agem na carga $q$ quando medidas por observadores nos referenciais $S$ e $\tilde{S}$
+	\end{enumerate}
+	\end{enumerate}
+
+\end{document}
