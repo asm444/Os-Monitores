@@ -66,6 +66,72 @@
 	
 	quanto marcava o relógio $R_2$ (o da saída do túnel) neste instante?
 	
+	\textbf{Solução:}
+	
+	Considerando $ R_1 $ e $ R_2 $ parados no referencial S e o carro parado com o relógio $ R_3 $ no referencial S', temos as seguintes relações:
+	
+	O relógio $ R_1 $ está sincronizado perfeitamente com o relógio $ R_2 $, em outras palavras, $ \Delta t_{R_1} = \Delta t_{R_2}$.
+	
+	O instante inicial do relógio $ R_1 $ é igual ao instante inicial do relógio $ R_3 $ e é zero, isto é, $ t_{R_1I} = t_{R_3I} = 0  $
+	
+	Usando uma das transformações de Lorentz, temos
+	
+	\begin{equation*}
+		\Delta t' = \gamma ( \Delta t - v \Delta x)
+	\end{equation*}
+	logo,
+	\begin{equation*}
+		\Delta t_{R_3} = \gamma ( \Delta t_{R_2} - \dfrac{v \Delta x}{c^2})
+	\end{equation*}
+
+	\begin{equation*}
+		\therefore \,\,\,\Delta t_{R_2} =  ( \dfrac{\Delta t_{R_3}}{\gamma} + \dfrac{v \Delta x}{c^2})
+	\end{equation*}
+
+	\begin{equation*}
+		\Delta t_{R_2} =  ( \dfrac{\dfrac{2L}{c}}{\gamma} + \dfrac{v L}{c^2}) = \dfrac{2L}{c\gamma} + vL = L (\dfrac{2}{c\gamma} + \dfrac{v}{c}) = \dfrac{L}{c} (\dfrac{2}{\gamma} + \dfrac{v}{c})
+	\end{equation*}
+
+	Sabendo que $ \Delta t_{R_3} = \dfrac{2L}{c} $ e a distância percorrida pelo piloto $ \Delta x\prime = \dfrac{\Delta x}{\gamma} = \dfrac{L}{\gamma} $, podemos calcular a velocidade
+	
+	\begin{equation*}
+		v = \dfrac{\Delta x\prime}{\Delta t\prime} = \dfrac{\dfrac{L}{\gamma}}{\dfrac{2L}{c}} = \dfrac{c}{2\gamma}
+	\end{equation*}
+
+	\begin{equation*}
+		v^2 = (\dfrac{c}{2\gamma})^2 = \dfrac{c^2}{4\gamma^2} = (\dfrac{c^2}{4}) (1 - \dfrac{v^2}{c^2})
+	\end{equation*}
+
+	\begin{equation*}
+		v^2 + \dfrac{v^2}{4}= \dfrac{5v^2}{4}=  \dfrac{c^2}{4}
+	\end{equation*}
+	
+	\begin{equation*}
+	 \therefore	\,\,\,\, v  = \dfrac{c}{\sqrt{5}} < c
+	\end{equation*}
+
+	Calculando o $ \gamma $, temos
+	
+	\begin{equation*}
+		\gamma = (1-\dfrac{v^2}{c^2})^{-1/2} = (1-\dfrac{(\dfrac{c}{\sqrt{5}})^2}{c^2})^{-1/2} =(1-\dfrac{1}{5})^{-1/2} = (\dfrac{4}{5})^{-1/2} = \dfrac{\sqrt{5}}{2}
+	\end{equation*}
+
+	\begin{equation*}
+		\gamma = \dfrac{\sqrt{5}}{2} > 1
+	\end{equation*}
+	
+	Substituindo o valor de $ v $ e $ \gamma $, obtemos
+	
+	\begin{equation*}
+		\Delta t_{R_2}  = \dfrac{L}{c} (\dfrac{2}{\gamma} + \dfrac{v}{c}) = \dfrac{L}{c} (\dfrac{2}{ \dfrac{\sqrt{5}}{2}} + \dfrac{\dfrac{c}{\sqrt{5}}}{c})
+	\end{equation*}
+
+	\begin{equation*}
+		\Delta t_{R_2}  = \dfrac{5L}{c\sqrt{5}} = \dfrac{L\sqrt{5}}{c}
+	\end{equation*}
+
+	O relógio $ R_2 $ marca $\dfrac{L\sqrt{5}}{c}  $ neste instante.
+	
 	\item Considere um fio onde corre uma corrente $I$. No referencial do laboratório, que vamos chamar de $S$, o fio está parado, possui uma densidade de carga $\rho$ (i.e, o fio \textbf{não é neutro}) e se estende reto paralelo ao eixo y. Ainda para esse referencial $S$, os elétrons responsáveis pela corrente se deslocam pelo fio com velocidade constante $\mathbf{v} =v \mathbf{\hat{y}}$. Considere também um outro referencial S que se desloca com relação à S, com velocidade $\mathbf{V} = \mathbf{v} = v\mathbf{\hat{y}}$
 	\begin{enumerate}
 	\item Determine os campos elétricos e magnéticos nos referenciais $S$ e $\tilde{S}$
