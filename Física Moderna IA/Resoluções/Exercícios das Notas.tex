@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[top=2cm, bottom= 2cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage[portuguese]{babel}
+
+
+\newtheorem{exercise}{Exercício}
+
+
+\hypersetup{
+hidelinks = true
+}
+
+\title{Resolução dos exercícios das notas - Física Moderna 1 A}
+
+\author{Arthur Souza e Gabriel Capelini}
+
+\begin{document}
+
+\maketitle
+
+\section*{Aula 12}
+
+\textbf{Exercício 9} Calcule $\eta^{\mu}\eta_{\mu \nu}\eta^{\nu}$ e mostre que é um invariante.
+
+\paragraph{Solução:} 
+\begin{equation}\label{norma quadrivelocidade}
+\begin{split}
+&\eta^{\mu}\eta_{\mu \nu}\eta^{\nu} = \eta^{\mu}\eta_{\nu} = -\eta^0 \eta_0 + \eta^i \eta_i = -\frac{dx^0}{d\tau}\frac{dx_0}{d\tau} + \frac{dx^i}{d\tau}\frac{dx_i}{d\tau} = \gamma^2 \left(-\frac{cdt}{dt}\frac{cdt}{dt} + \frac{dx^i}{dt}\frac{dx_i}{dt}\right) = \gamma^2(-c^2+v^2)\\
+& = -\gamma^2 c^2\underbrace{\left(1 - \frac{v^2}{c^2}\right)}_{\gamma^{-2}} = -c^2
+\end{split}
+\end{equation}
+
+Para mostrar que é um invariante, aplicamos uma TL
+
+
+\begin{equation}\label{TL arbitrária}
+\begin{split}
+&\eta^{\mu'}\eta_{\mu \nu}\eta^{\nu'} = \frac{dx^{\mu'}}{d\tau}\eta_{\mu \nu}\frac{dx^{\nu'}}{d\tau} = \frac{d(\Lambda^{\mu}_{\;\;\alpha}x^{\alpha})}{d\tau}\eta_{\mu \nu}\frac{d(\Lambda^{\nu}_{\;\;\beta}x^{\beta})}{d\tau} = \Lambda^{\mu}_{\;\;\alpha}\eta_{\mu \nu}\Lambda^{\nu}_{\;\;\beta}\frac{dx^{\alpha}}{d\tau}\frac{dx^{\beta}}{d\tau} = \eta_{\alpha \beta}\frac{dx^{\alpha}}{d\tau}\frac{dx^{\beta}}{d\tau}\\
+& = \eta^{\alpha}\eta_{\alpha \beta}\eta^{\beta}
+\end{split} 
+\end{equation}
+Como a tranformação (\ref{TL arbitrária}) é completamente arbitrária, então $\eta^{\mu}\eta_{\mu \nu}\eta^{\nu}$ é um invariante.
+
+
+\noindent \textbf{Exercício 10} Explique por que a massa de repouso é um invariante.
+
+\paragraph{Solução:}  Como o resultado do produto interno é um escalar e escalares possuem o mesmo valor visto de qualquer referencial, o resultado $m^2c^2$ é um invariante. Como $c$ é um invariante, então $m$ também deve ser um invariante para essa quantidade como um todo ser invariante. 
+
+
+\end{document}
