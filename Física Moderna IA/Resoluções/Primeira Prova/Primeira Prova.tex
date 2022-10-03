@@ -89,7 +89,7 @@ A matriz de rotação em torno de $x$ é dada por
 \begin{equation}
 R_{(x)}=\begin{pmatrix}
 1 & 0 & 0 & 0 \\ 
-1 & 0 & 0 & 0 \\ 
+0 & 1 & 0 & 0 \\ 
 0 & 0 & \cos\theta & \sin\theta \\ 
 0 & 0 & -\sin\theta & \cos\theta
 \end{pmatrix} 
@@ -99,8 +99,8 @@ Como $R_{(x)} \in SO(3)$, então $R^{-1} = R^T$. Então
 
 \begin{equation}
 R_{(x)}^{-1}=\begin{pmatrix}
-1 & 1 & 0 & 0 \\ 
-0 & 0 & 0 & 0 \\ 
+1 & 0 & 0 & 0 \\ 
+0 & 1 & 0 & 0 \\ 
 0 & 0 & \cos\theta & -\sin\theta \\ 
 0 & 0 & \sin\theta & \cos\theta
 \end{pmatrix} 
@@ -111,56 +111,58 @@ Portanto, a matriz que faz esse boost é dada por
 \begin{equation} \label{boost arbitrário}
 \begin{split}
 &\Lambda = R_{(x)}^{-1}\tilde{\Lambda}R_{(x)} = \begin{pmatrix}
-1 & 1 & 0 & 0 \\ 
-0 & 0 & 0 & 0 \\ 
+1 & 0 & 0 & 0 \\ 
+0 & 1 & 0 & 0 \\ 
 0 & 0 & \cos\theta & -\sin\theta \\ 
 0 & 0 & \sin\theta & \cos\theta
-\end{pmatrix} \begin{pmatrix}
+\end{pmatrix} 
+\begin{pmatrix}
 \gamma & 0 & -\gamma \beta & 0 \\ 
 0 & 1 & 0 & 0 \\ 
 -\gamma \beta & 0 & \gamma & 0 \\ 
 0 & 0 & 0 & 1
 \end{pmatrix} \begin{pmatrix}
 1 & 0 & 0 & 0 \\ 
-1 & 0 & 0 & 0 \\ 
+0 & 1 & 0 & 0 \\ 
 0 & 0 & \cos\theta & \sin\theta \\ 
 0 & 0 & -\sin\theta & \cos\theta
-\end{pmatrix} 
-\\  =& \begin{pmatrix}
-\gamma & 1 & -\gamma \beta & 0 \\ 
-0 & 0 & 0 & 0 \\ 
--\gamma \beta \cos\theta & 0 & \beta \cos\theta & -\sin\theta \\ 
+\end{pmatrix} \\
+&= \begin{pmatrix}
+\gamma & 0 &  -\gamma \beta & 0 \\ 
+0 & 1 & 0 & 0 \\ 
+-\gamma \beta \cos\theta & 0 & \beta\cos\theta & -\sin\theta \\ 
 -\gamma \beta \sin\theta & 0 & \beta \sin\theta & \cos\theta
 \end{pmatrix} \begin{pmatrix}
 1 & 0 & 0 & 0 \\ 
-1 & 0 & 0 & 0 \\ 
+0 & 1 & 0 & 0 \\ 
 0 & 0 & \cos\theta & \sin\theta \\ 
 0 & 0 & -\sin\theta & \cos\theta
-\end{pmatrix} \\ =  &\begin{pmatrix}
-\gamma +1 & 0 & -\gamma \beta \cos\theta & -\gamma \beta \sin\theta \\ 
-0 & 0 & 0 & 0 \\ 
--\gamma \beta \cos\theta & 0 & \beta \cos^2\theta+\sin^2\theta & \beta \cos\theta \sin\theta - \sin\theta \cos\theta \\ 
--\gamma \beta \sin\theta & 0 & \beta \cos\theta \sin\theta - \sin\theta \cos\theta & \beta \sin^2\theta + \cos^2\theta
+\end{pmatrix} \\
+&= \begin{pmatrix}
+\gamma & 0 & -\gamma \beta \cos\theta & -\gamma \beta \sin\theta \\ 
+0 & 1 & 0 & 0 \\ 
+-\gamma \beta \cos\theta & 0 & \beta cos^2\theta + \sin^2\theta & \beta \cos\theta \sin\theta-\cos\theta \sin\theta \\ 
+-\gamma \beta \sin\theta & 0 & \beta\cos\theta \sin\theta - \cos\theta \sin\theta & \beta \sin^2\theta + \cos^2\theta
 \end{pmatrix} 
-\end{split} 
+\end{split}
 \end{equation}
 
-Sabendo que o módulo de $\mathbf{v}$ é dado por 
+De (\ref{velocidade arbitrária}) temos 
 
 \begin{equation}
-v = \sqrt{\frac{3b^2}{4}+\frac{b^2}{2}} = \sqrt{\frac{5}{4}b^2} = \frac{\sqrt{5}}{2}b
+v = \sqrt{\frac{3b^2}{4}+\frac{b^2}{4}} = b
 \end{equation}
 
-temos
+Logo, tomando a projeção de $\mathbf{v}$ na direção de $\mathbf{\hat{y}}$, temos 
 
 \begin{equation}
-\mathbf{v}\cdot\mathbf{\hat{y}} = vy\cos\theta \Rightarrow \cos\theta = \frac{\frac{\sqrt{3}b}{2}}{\frac{\sqrt{5}b}{2}} = \sqrt{\frac{3}{5}} = 0,999908616 
+\mathbf{v}\cdot\mathbf{\hat{y}} = vy\cos\theta \Rightarrow \cos\theta = \frac{\frac{\sqrt{3}b}{2} }{b} = \frac{\sqrt{3}}{2}
 \end{equation}
 
 Portanto 
 
 \begin{equation}
-\theta = \arccos(0,999908616) = 0,774597372
+\theta = \arccos\left(\frac{\sqrt{3}}{2}\right) = \frac{\pi}{6}
 \end{equation}
 	
 	
