@@ -241,7 +241,7 @@ Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz es
 
 	O relógio $ R_2 $ marca $\dfrac{L\sqrt{5}}{c}  $ neste instante.
 	
-	\item Considere um fio onde corre uma corrente $I$. No referencial do laboratório, que vamos chamar de $S$, o fio está parado, possui uma densidade de carga $\rho$ (i.e, o fio \textbf{não é neutro}) e se estende reto paralelo ao eixo y. Ainda para esse referencial $S$, os elétrons responsáveis pela corrente se deslocam pelo fio com velocidade constante $\mathbf{v} =v \mathbf{\hat{y}}$. Considere também um outro referencial $\tilde{S}$ que se desloca com relação à S, com velocidade $\mathbf{V} = \mathbf{v} = v\mathbf{\hat{y}}$
+		\item Considere um fio onde corre uma corrente $I$. No referencial do laboratório, que vamos chamar de $S$, o fio está parado, possui uma densidade de carga $\rho$ (i.e, o fio \textbf{não é neutro}) e se estende reto paralelo ao eixo y. Ainda para esse referencial $S$, os elétrons responsáveis pela corrente se deslocam pelo fio com velocidade constante $\mathbf{v} =v \mathbf{\hat{y}}$. Considere também um outro referencial S que se desloca com relação à S, com velocidade $\mathbf{V} = \mathbf{v} = v\mathbf{\hat{y}}$
 	\begin{enumerate}
 		\item Determine os campos elétricos e magnéticos nos referenciais $S$ e $\tilde{S}$
 		
@@ -251,27 +251,17 @@ Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz es
 		
 		ao usar a Lei de Gauss para determinar o campo elétrico produzido pelo fio, temos
 		\begin{equation*}
-			E = \dfrac{\rho l}{2\pi \epsilon_0s^2 }\vec{s}
+			E = \dfrac{\rho l}{2\pi \epsilon_0r }\vec{x}
 		\end{equation*}
-		onde l é o comprimento do fio e calculando o campo elétrico produzido pela carga
-		\begin{equation*}
-			E = \dfrac{-q}{4\pi \epsilon_0 r^3}\vec{r}
-		\end{equation*}
-		O campo elétrico total visto no referencial S é
-		\begin{equation*}
-			E = \dfrac{\rho l}{2\pi \epsilon_0s }\vec{s}-\dfrac{q}{4\pi \epsilon_0 r^3}\vec{r}
-		\end{equation*}
+		onde l é o comprimento do fio e calculando o campo elétrico produzido pela carga.
 		O campo magnético total visto no referencial S é
 		\begin{equation*}
-			B = \dfrac{\mu_0 I}{2\pi s^3}\vec{s} 
+			B = \dfrac{\mu_0 I}{2\pi r}\vec{x} 
 		\end{equation*}
-		pois é produzido pela corrente I do fio.
+		pois é produzido pela corrente I do fio e $\vec{s}$ é o vetor radial na direção de y.
 		
-		No referencial $\tilde{S}$, temos o campo elétrico eletrostático gerado pelos elétrons do fio
-		\begin{equation*}
-			E = \dfrac{-q}{4\pi \epsilon_0 r^3}\vec{r}
-		\end{equation*}
-		Ao analisarmos a densidade de carga do fio no referencial $\tilde{S}$, é preciso ter cuidado, a relação da densidade de carga positiva e negativa do fio é dada por
+		No referencial $\tilde{S}$,
+		ao analisarmos a densidade de carga do fio no referencial $\tilde{S}$, é preciso ter cuidado, a relação da densidade de carga positiva e negativa do fio é dada por
 		\begin{equation*}
 			\rho_+ +\rho_- = \rho
 		\end{equation*}
@@ -280,7 +270,7 @@ Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz es
 			\rho_+ = \frac{Q_+}{l}\text{ e  } \rho_- = \frac{Q_-}{l}
 		\end{equation*}
 		no referencial $ S $.
-		Para $\tilde{S}$, a distância entre os elétrons é maior em comparação a distância entre os prótons medida por um observador no referencial $ S $, logo a densidade de carga negativa é dada por
+		Para $\tilde{S}$, a distância entre os elétrons é maior em comparação a distância entre os elétrons medida por um observador no referencial $ S $, logo a densidade de carga negativa é dada por
 		\begin{equation*}
 			\rho_-'  = \dfrac{Q_-}{l'}=\dfrac{Q_-}{\gamma l} = \gamma^{-1} \rho_-
 		\end{equation*}
@@ -292,12 +282,7 @@ Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz es
 		\begin{equation*}
 			\rho\prime = \gamma\rho_+ + \gamma^{-1}\rho_- > \rho = \rho_+ + \rho_-
 		\end{equation*}
-		O campo elétrico gerado pelo fio é dado por
-		\begin{equation*}
-			E' = \dfrac{l\rho\prime }{2\pi \epsilon_0s^2 }\vec{s}
-		\end{equation*}
-		onde $ E'_{fio} > E_{fio} $.
-		Neste referencial, a carga está em repouso e quem se move é o fio em sentido contrário, portanto, surge um campo magnético produzida pelo fio. A corrente elétrica e a carga pode ser reescrita como 
+		A corrente elétrica e a carga pode ser reescrita como 
 		\begin{equation*}
 			i = \dfrac{dq}{dt} = \dfrac{dl}{dt}\dfrac{dq}{dl} = v \dfrac{dq}{dl}
 		\end{equation*}
@@ -309,35 +294,89 @@ Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz es
 		\begin{equation*}
 			i = v\dfrac{dq}{dl} = v\rho
 		\end{equation*}	
-		então
-		\begin{equation*}
-			B'_{fio} = \dfrac{\mu_0 i\prime}{2\pi s^2}\vec{s} = \dfrac{\mu_0 v\rho\prime}{2\pi s^2}\vec{s}
-		\end{equation*}
-	
-		e o campo elétrico total observado em $\tilde{S}$ é
+		Então podemos reescrever $\rho_- = \dfrac{I}{v}$, ao substituirmos em $\rho$ temos
 		
 		\begin{equation*}
-			E' = \dfrac{l\rho\prime }{2\pi \epsilon_0s^2 }\vec{s} - \dfrac{q}{4\pi \epsilon_0 r^3}\vec{r}
+			\rho = \rho_++\rho_- = \rho_+ + \dfrac{I}{v}
+		\end{equation*}
+		e escrevermos $\rho_+$ = $\rho - \rho_- = \rho - \dfrac{I}{v}$.
+		
+		substituindo no calculo de $\rho\prime$,obtemos
+		
+		\begin{equation*}
+			\rho\prime = \gamma\rho_+ + \gamma^{-1}\rho_- = \gamma (\rho -\dfrac{I}{v} ) + \gamma^{-1}\dfrac{I}{v}
+		\end{equation*}
+		$$ \rho\prime = \gamma \left(\rho - \dfrac{I}{v} + (1 - \beta^2)\dfrac{I}{v}\right) = \gamma \left(\rho 
+		-\dfrac{I\beta^2}{v}\right)$$
+		A corrente elétrica vista no referencial $\tilde{S}$ é
+		\begin{equation*}
+			I\prime = v_+\prime \rho\prime_+ + v_- \prime \rho\prime_- = - v \rho\prime_+ = - v \gamma (\rho - \dfrac{I}{v}) = \gamma (I - v\rho)
+		\end{equation*}
+		
+		O campo elétrico e magnético observado no referencial S, é dado por
+		
+		\begin{equation*}
+			E = \dfrac{\rho}{2\pi\epsilon_0 r} \hat{r}
+		\end{equation*}
+		\begin{equation*}
+			B = - \dfrac{\mu_0 I}{2\pi r} \hat{\theta}
+		\end{equation*}
+		Para o referencial $\tilde{S}$, temos
+		
+		\begin{equation*}
+			E\prime = \dfrac{\rho\prime}{2\pi\epsilon_0 r} \hat{r} = \dfrac{\gamma}{2\pi\epsilon_0 r} \left(\rho 
+			-\dfrac{I\beta^2}{v}\right) \hat{r} = \dfrac{\gamma}{2\pi\epsilon_0 r} \left(\rho 
+			-\dfrac{Iv}{c^2}\right) \hat{r}
+		\end{equation*}
+		\begin{equation*}
+			B = - \dfrac{\mu_0 I\prime}{2\pi r} \hat{\theta} = - \dfrac{\mu_0 \gamma (I - v\rho)}{2\pi r} \hat{\theta}
 		\end{equation*}
 		
 		\item Considere agora uma carga q a uma distância $R$ do fio. A carga está parada com relação ao referencial $S$ (o laboratório). Determine as forças que agem na carga $q$ quando medidas por observadores nos referenciais $S$ e $\tilde{S}$
 	\end{enumerate}
-	\textbf{Solução: }
-	Aplicar as equações de forças elétrica e magnética obtemos as forças aplicadas na partícula.
 	
-	Para um observador no referencial S, temos:
+	A força de Lorentz é dada por
+	$$F = q (E + v\times B)$$. Como a carga está parada em relação ao referencial S, então a força não terá a contribuição do campo magnético visto pelo referencial S, portanto
+	
 	\begin{equation*}
-		F_{elétrica} =Q\left( \dfrac{\rho l}{2\pi \epsilon_0R }\vec{s}-\dfrac{q}{4\pi \epsilon_0 R^3}\vec{r}\right)
+		F = q (E + v\times B) = q E = q  \dfrac{\rho}{2\pi\epsilon_0 R} \hat{r}
 	\end{equation*}
-	Como a carga está parada com relação ao referencial S, ela não sente força magnética observada neste referencial.
 	
-	Para um observador no referencial $\tilde{S}$,temos
+	Para o referencial $\tilde{S}$, os elétrons estão parados e a carga está se movendo no sentido oposto ao sentido da corrente elétrica, portanto, há contribuição do campo magnético. Assim, a força na carga observada no referencial $\tilde{S}$ é
+	
 	\begin{equation*}
-		F_{elétrica} =Q\left( \dfrac{\rho\prime l}{2\pi \epsilon_0R }\vec{s}-\dfrac{q}{4\pi \epsilon_0 R^3}\vec{r}\right)
+		F\prime =  q (E\prime + v\times B\prime) = q \left(\dfrac{\gamma}{2\pi\epsilon_0 r} \left(\rho 
+		-\dfrac{Iv}{c^2}\right) \hat{r} - \dfrac{\mu_0 \gamma (I - v\rho)}{2\pi r} v \hat{y}\times\hat{\theta}\right)
 	\end{equation*}
-	Como a carga se move com a mesma velocidade que o fio no sentido po
 	
+	\begin{equation*}
+		F\prime =  q (E\prime + v\times B\prime) = q \left(\dfrac{\gamma}{2\pi\epsilon_0 R} \left(\rho 
+		-\dfrac{Iv}{c^2}\right) \hat{r} - \dfrac{\mu_0 v\gamma (I - v\rho)}{2\pi R}  \hat{r}\right)
+	\end{equation*}
 	
+	\begin{equation*}
+		F\prime = \dfrac{q\gamma}{2\pi \epsilon_0R} \left(\rho -\dfrac{Iv}{c^2}- \mu_0 \epsilon_0v (I - v\rho) \right)\hat{r} 
+	\end{equation*}
+	
+	\begin{equation*}
+		F\prime = \dfrac{q\gamma}{2\pi \epsilon_0R} \left(\rho -\dfrac{Iv}{c^2}-\dfrac{1}{c^2}v (I - v\rho) \right)\hat{r} 
+	\end{equation*}
+	
+	\begin{equation*}
+		F\prime = \dfrac{q\gamma}{2\pi \epsilon_0R} \left(\rho -\dfrac{v^2\rho}{c^2} \right)\hat{r} 
+	\end{equation*}
+	
+	\begin{equation*}
+		F\prime = \dfrac{q\gamma\rho}{2\pi \epsilon_0R} \left(1 -\dfrac{v^2}{c^2} \right)\hat{r} 
+	\end{equation*}
+	
+	\begin{equation*}
+		F\prime = \dfrac{q\gamma\rho\gamma^{-2}}{2\pi \epsilon_0R}\hat{r} 
+	\end{equation*}
+	
+	\begin{equation*}
+		F\prime = \dfrac{q\rho}{2\gamma\pi \epsilon_0R}\hat{r} = \dfrac{F}{\gamma}
+	\end{equation*}
 \end{enumerate}
 
 \end{document}
