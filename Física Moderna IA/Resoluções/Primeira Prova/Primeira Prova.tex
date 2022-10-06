@@ -243,10 +243,83 @@ Substituindo esse valor em (\ref{boost arbitrário}) teremos a matriz que faz es
 	
 	\item Considere um fio onde corre uma corrente $I$. No referencial do laboratório, que vamos chamar de $S$, o fio está parado, possui uma densidade de carga $\rho$ (i.e, o fio \textbf{não é neutro}) e se estende reto paralelo ao eixo y. Ainda para esse referencial $S$, os elétrons responsáveis pela corrente se deslocam pelo fio com velocidade constante $\mathbf{v} =v \mathbf{\hat{y}}$. Considere também um outro referencial S que se desloca com relação à S, com velocidade $\mathbf{V} = \mathbf{v} = v\mathbf{\hat{y}}$
 	\begin{enumerate}
-	\item Determine os campos elétricos e magnéticos nos referenciais $S$ e $\tilde{S}$
-	
-	\item Considere agora uma carga q a uma distância $R$ do fio. A carga está parada com relação ao referencial $S$ (o laboratório). Determine as forças que agem na carga $q$ quando medidas por observadores nos referenciais $S$ e $\tilde{S}$
+		\item Determine os campos elétricos e magnéticos nos referenciais $S$ e $\tilde{S}$
+		
+		\textbf{Solução: }
+		
+		No referencial $ S $, temos os elétrons se movendo com velocidade constante $\mathbf{v} =v \mathbf{\hat{y}}$ e o fio carregado com a densidade de carga $\rho$. Portanto,
+		
+		ao usar a Lei de Gauss para determinar o campo elétrico produzido pelo fio, temos
+		\begin{equation*}
+			E = \dfrac{\rho l}{2\pi \epsilon_0s^2 }\vec{s}
+		\end{equation*}
+		onde l é o comprimento do fio e calculando o campo elétrico produzido pela carga
+		\begin{equation*}
+			E = \dfrac{-q}{4\pi \epsilon_0 r^3}\vec{r}
+		\end{equation*}
+		O campo elétrico total visto no referencial S é
+		\begin{equation*}
+			E = \dfrac{\rho l}{2\pi \epsilon_0s }\vec{s}-\dfrac{q}{4\pi \epsilon_0 r^3}\vec{r}
+		\end{equation*}
+		O campo magnético toal visto no referencial S é
+		\begin{equation*}
+			B = \dfrac{\mu_0 I}{2\pi s^3}\vec{s} 
+		\end{equation*}
+		pois é produzido pela corrente I do fio.
+		
+		No referencial $\tilde{S}$, temos
+		
+		o campo elétrico eletrostático gerado pelos elétrons do fio
+		\begin{equation*}
+			E = \dfrac{-q}{4\pi \epsilon_0 r^3}\vec{r}
+		\end{equation*}
+		Ao analisarmos a densidade de carga do fio no referencial $\tilde{S}$, é preciso ter cuidado, a relação da densidade de carga positiva e negativa do fio é dada por
+		\begin{equation*}
+			\rho_+ +\rho_- = \rho
+		\end{equation*}
+		onde
+		\begin{equation*}
+			\rho_+ = \frac{Q_+}{l}\text{ e  } \rho_- = \frac{Q_-}{l}
+		\end{equation*}
+		no referencial $ S $.
+		Para $\tilde{S}$, a distância entre os elétrons é maior em comparação a distância entre os elétrons medida por um observador no referencial $ S $, logo a densidade de carga negativa é dada por
+		\begin{equation*}
+			\rho_-'  = \dfrac{Q_-}{l'}=\dfrac{Q_-}{\gamma l} = \gamma^{-1} \rho_-
+		\end{equation*}
+		Para um observador no referencial $\tilde{S}$ o fio é contraído, logo
+		\begin{equation*}
+			\rho_+\prime = \dfrac{Q_+}{l\prime} = \dfrac{Q_+}{\dfrac{l}{\gamma}} = \gamma\rho_+
+		\end{equation*}
+		portanto, a densidade de carga $\rho\prime$ observada em $\tilde{S}$ é observada com uma concentração maior de densidade de carga positiva, isto é,
+		\begin{equation*}
+			\rho\prime = \gamma\rho_+ + \gamma^{-1}\rho_- > \rho = \rho_+ + \rho_-
+		\end{equation*}
+		O campo elétrico gerado pelo fio é dado por
+		\begin{equation*}
+			E' = \dfrac{l\rho\prime }{2\pi \epsilon_0s^2 }\vec{s}
+		\end{equation*}
+		onde $ E'_{fio} > E_{fio} $.
+		Neste referencial, a carga está em repouso e quem se move é o fio em sentido contrário, portanto, surge um campo magnético produzida pelo fio. A corrente elétrica e a carga pode ser reescrita como 
+		\begin{equation*}
+			i = \dfrac{dq}{dt} = \dfrac{dl}{dt}\dfrac{dq}{dl} = v \dfrac{dq}{dl}
+		\end{equation*}
+		e a densidade de carga
+		\begin{equation*}
+			dq = \rho dl \Rightarrow \dfrac{dq}{dl} = \rho
+		\end{equation*}
+		logo,
+		\begin{equation*}
+			i = v\dfrac{dq}{dl} = v\rho
+		\end{equation*}	
+		então
+		\begin{equation*}
+			B'_{fio} = \dfrac{\mu_0 i\prime}{2\pi s^2}\vec{s} = \dfrac{\mu_0 v\rho\prime}{2\pi s^2}\vec{s}
+		\end{equation*}
+		
+		\item Considere agora uma carga q a uma distância $R$ do fio. A carga está parada com relação ao referencial $S$ (o laboratório). Determine as forças que agem na carga $q$ quando medidas por observadores nos referenciais $S$ e $\tilde{S}$
 	\end{enumerate}
-	\end{enumerate}
+	\textbf{Solução: }
+	Aplicar as equações de forças elétrica e magnética obtemos as forças aplicadas na partícula.
+\end{enumerate}
 
 \end{document}
