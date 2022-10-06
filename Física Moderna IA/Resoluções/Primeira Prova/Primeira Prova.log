@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  6 OCT 2022 06:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.8.21)  6 OCT 2022 06:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,7 +546,16 @@ Package pdftex.def Info: figuras/boost.png  used on input line 72.
 [1
 
 {C:/Users/arthu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./figuras/bo
-ost.png>] [2] [3] [4] [5] (Primeira Prova.aux)
+ost.png>] [2] [3] [4]
+
+LaTeX Warning: Command \' invalid in math mode on input line 332.
+
+Missing character: There is no é in font cmr7!
+
+LaTeX Warning: Command \' invalid in math mode on input line 338.
+
+Missing character: There is no é in font cmr7!
+[5] (Primeira Prova.aux)
 Package rerunfilecheck Info: File `"Primeira Prova".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -574,7 +583,7 @@ pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmsy7.pfb><C:/Users/arthu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/symbols/msam10.pfb>
-Output written on "Primeira Prova.pdf" (5 pages, 187749 bytes).
+Output written on "Primeira Prova.pdf" (5 pages, 190151 bytes).
 PDF statistics:
  267 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
