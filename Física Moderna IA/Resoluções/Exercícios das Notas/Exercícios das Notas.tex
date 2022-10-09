@@ -94,4 +94,29 @@ p_{\gamma} = (2,4\times 10^{-28}\si{kg})(3\times 10^8 \unit{m/s}) = 7,2 \times 1
 \end{equation}
 Se o pion decair em apenas um fóton, a conservação de momento não é satisfeita, pois o fóton viaja a velocidade da luz e o pion, por ter massa, não é capaz de viajar a velocidade da luz. Dessa forma, outro fóton com direção contrária precisa aparecer para que o momento total seja conservado.
 
+\section*{Aula 16}
+\paragraph{Exercício 7} Verifique que a conservação de carga não é invariante por Transformações de Galileu. Ou seja, assumindo que \textbf{J} é um vetor 3D e que $\rho$ é um escalar, mostre que a equação da conservação não é invariante por uma Transformação de Galileu.
+
+\paragraph{Solução:} A equação da continuidade é dada por
+
+\begin{equation*}
+	\nabla\cdot\mathbf{J} + \dfrac{\partial \rho}{\partial t} = 0
+\end{equation*}
+onde $ \mathbf{J} = \rho\mathbf{v} $. Ao realizarmos uma transformação de Galileu $ \mathbf{v'} = \mathbf{v} + \mathbf{V} $, temos
+
+\begin{equation*}
+	\nabla\cdot\mathbf{J'} + \dfrac{\partial \rho}{\partial t} = \nabla\cdot\mathbf{(\rho\mathbf{v}')} + \dfrac{\partial \rho}{\partial t} = \nabla\cdot\mathbf{(\rho(\mathbf{v} +\mathbf{V}))} + \dfrac{\partial \rho}{\partial t} = \nabla\cdot\mathbf{J} + \nabla\cdot\mathbf{(\rho\mathbf{V})} + \dfrac{\partial \rho}{\partial t}
+\end{equation*}
+
+\begin{equation*}
+	\nabla\cdot\mathbf{J} + \nabla\cdot\mathbf{(\rho\mathbf{V})} + \dfrac{\partial \rho}{\partial t} = \nabla\cdot\mathbf{J} + \nabla\mathbf{\rho}\cdot\mathbf{V} + \rho\nabla\cdot\mathbf{\mathbf{V}} + \dfrac{\partial \rho}{\partial t} = \nabla\cdot\mathbf{J} + \nabla\mathbf{\rho}\cdot\mathbf{V} + \dfrac{\partial \rho}{\partial t}
+\end{equation*}
+
+\begin{equation*}
+	\nabla\cdot\mathbf{J} + \nabla\mathbf{\rho}\cdot\mathbf{V} + \dfrac{\partial \rho}{\partial t} \neq \nabla\cdot\mathbf{J} + \dfrac{\partial \rho}{\partial t}
+\end{equation*}
+
+Logo, a equação da conservação não é invariante por uma Transformação de Galileu.
+
+
 \end{document}
