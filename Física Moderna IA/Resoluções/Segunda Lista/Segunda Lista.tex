@@ -1,0 +1,37 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[bottom = 2cm, top = 2cm, left = 2cm, right = 2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{mathtools}
+\usepackage[portuguese]{babel}
+\author{Arthur de Souza Molina e Gabriel Capelini Magalhaes}
+\title{Resolução da Segunda Lista de Exercícios}
+\begin{document}
+	\maketitle
+	
+	\begin{enumerate}
+	\item Mostre que uma transformação de Lorentz preserva a antissimetria de um tensor, i.e, se $B^{\mu \nu}$ é antissimétrico, então $\tilde{B}^{\mu \nu}$ transformado também será antissimétrico.
+		\paragraph{Solução: } Sabendo que $B^{\mu \nu}=-B^{ \nu \mu}$, aplicando uma transformação de Lorentz, temos 
+		
+		\begin{equation}
+		\tilde{B}^{\mu \nu} = \Lambda^{\mu}_{\;\alpha} \Lambda^{\nu}_{\;\beta}B^{\alpha \beta}
+		\end{equation}
+		Trocando a ordem os índices no lado direito
+		
+		\begin{equation}
+		\tilde{B}^{\mu \nu} = -\Lambda^{\mu}_{\;\beta} \Lambda^{\nu}_{\;\alpha}B^{\beta \alpha}
+		\end{equation}
+		
+Veja que, pelos índices estarem somados, podemos renomealos  de volta como $\alpha \rightarrow \beta$ e $\beta \rightarrow \alpha$, de forma que 
+
+\begin{equation}
+		\tilde{B}^{\mu \nu} = -\Lambda^{\mu}_{\;\alpha} \Lambda^{\nu}_{\;\beta}B^{\alpha \beta}
+		\end{equation}
+		Ou seja, a TL preserva a simetria do tensor $B^{\mu \nu}$. 
+	\end{enumerate}
+\end{document}
